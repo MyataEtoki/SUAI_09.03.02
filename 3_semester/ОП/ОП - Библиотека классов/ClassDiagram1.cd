@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="StavteClassy.Государство">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAQAAAAVAYQAAECAAAgQAAAAAYAEAQAAAAEAAAAAA=</HashCode>
+      <FileName>Государство.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ТекущийПравитель" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Области" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StavteClassy.Область">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAAAAUAAAAAECAAACAAAAAAAAAAAAAAAAQAAAEA=</HashCode>
+      <FileName>Область.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ГосударствоВКоторомНаходится" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Города" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StavteClassy.Район">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAAQAABBFCAAAAAAAABAAABAAAAAAAAAAQAI=</HashCode>
+      <FileName>Район.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="школарайона" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StavteClassy.Город">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQBIAAAECAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Город.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Районы" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StavteClassy.ГеографическийСубъект">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAUAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ГеографическийСубъект.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StavteClassy.Субъект">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAUACAABAAAEAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Субъект.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StavteClassy.БезопасностьИзмениласьEventArgs">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Район.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StavteClassy.Школа" Collapsed="true">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Школа.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StavteClassy.Правитель">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAEAIAAAAAAAAAABAAIAIAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Государство.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="StavteClassy.IПравитель" Collapsed="true">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAQQAAAAAAAAAAAAAAQAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Государство.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StavteClassy.IГосударство" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAIAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Государство.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StavteClassy.IОбласть" Collapsed="true">
+    <Position X="7" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Область.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StavteClassy.IГород" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Город.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StavteClassy.IРайон" Collapsed="true">
+    <Position X="2" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQAA=</HashCode>
+      <FileName>Район.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="StavteClassy.Образование" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Субъект.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="StavteClassy.БезопасностьИзмениласьEventHandler" Collapsed="true">
+    <Position X="2" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Район.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

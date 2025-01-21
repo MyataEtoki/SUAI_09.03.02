@@ -1,0 +1,11 @@
+C:\Users\etoki\source\repos\ОП - Библиотека классов\bin\Debug\net8.0\ОП - Библиотека классов.deps.json
+C:\Users\etoki\source\repos\ОП - Библиотека классов\bin\Debug\net8.0\ОП - Библиотека классов.dll
+C:\Users\etoki\source\repos\ОП - Библиотека классов\bin\Debug\net8.0\ОП - Библиотека классов.pdb
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ОП - Библиотека классов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ОП - Библиотека классов.AssemblyInfoInputs.cache
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ОП - Библиотека классов.AssemblyInfo.cs
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ОП - Библиотека классов.csproj.CoreCompileInputs.cache
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ОП - Библиотека классов.dll
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\refint\ОП - Библиотека классов.dll
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ОП - Библиотека классов.pdb
+C:\Users\etoki\source\repos\ОП - Библиотека классов\obj\Debug\net8.0\ref\ОП - Библиотека классов.dll

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уход за растениями</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Справочная информация по уходу за растениями</h1>
+        <nav>
+            <ul>
+                <li><a href="monstera.html">Монстера</a></li>
+                <li><a href="fikus.html">Фикус</a></li>
+                <li><a href="pothos.html">Потос</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Поиск растения:</h2>
+            <input type="text" id="search" placeholder="Введите название растения..." onkeyup="filterPlants()">
+            <ul id="plant-list">
+                <li><a href="monstera.html">Монстера</a></li>
+                <li><a href="fikus.html">Фикус</a></li>
+                <li><a href="pothos.html">Потос</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Уход за растениями. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
