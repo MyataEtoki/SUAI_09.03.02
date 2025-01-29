@@ -7,4 +7,4 @@
 # 3 семестр  
 [Основы Программирования](https://github.com/MyataEtoki/SUAI_09.03.02/tree/main/3_semester/ОП) - лабы Шевяков; лекции Богословская.  
 [Алгоритмы и Структуры Данных](https://github.com/MyataEtoki/SUAI_09.03.02/tree/main/3_semester/АлиСД) - лекции и лабы Гуков.  
-[Компьютерная Графика](https://github.com/MyataEtoki/SUAI_09.03.02/tree/main/3_semester/КГ) - лекции и лабы Аграновский.
+[Компьютерная Графика](https://github.com/MyataEtoki/SUAI_09.03.02/tree/main/3_semester/КГ) - лекции(здесь их нет :D) и лабы Аграновский.
