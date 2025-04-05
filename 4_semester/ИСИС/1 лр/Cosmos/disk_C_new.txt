@@ -1,0 +1,26 @@
+Структура папок тома Windows 11
+Серийный номер тома: 0839-3ADD
+C:\COSMOS
+|   disk_C.txt
+|   disk_C_new.txt
+|   FourStar.txt
+|   ShapovalovaDaria4329-StoryAboutSunny.txt
+|   
++---Aero
+|   +---Aerospace
+|   |   +---Satellite
+|   |   \---Spacecraft
+|   \---Roket
++---Star
+|       copy
+|       FirstStar.txt
+|       SecondStar.txt
+|       ShapovalovaDaria4329-Moon.txt
+|       ShapovalovaDaria4329-Pluton.txt
+|       ShapovalovaDaria4329-SUN.txt
+|       
+\---StarGames
+    +---Sandboxs
+    |   \---Strabound
+    \---Wars
+        \---Halo

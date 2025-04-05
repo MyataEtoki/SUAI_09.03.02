@@ -1,0 +1,17 @@
+Структура папок тома Windows 11
+Серийный номер тома: 0839-3ADD
+C:\COSMOS
+|   disk_C.txt
+|   FourStar.txt
+|   
++---Aero
+|   +---Aerospace
+|   |   +---Satellite
+|   |   \---Spacecraft
+|   \---Roket
+\---Star
+        copy
+        FirstStar.txt
+        newFile.txt
+        SecondStar.txt
+        
