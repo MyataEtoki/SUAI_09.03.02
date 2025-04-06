@@ -1,0 +1,137 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuit3-3                         ***
+***                           06.04.2025 17:26:51                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             5.000   2             4.537   3             5.000  
+4             5.000   5           601.008m  6           118.693m 
+7             5.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1             D2             D3
+Using model:      5082-2207      5082-2207      5082-2207
+
+Capacitance Terms:
+CAP                336.604f       336.604f       336.604f
+
+Current Terms:
+ID                   2.825m         2.825m         2.825m
+
+Resistance Terms:
+REQ                  9.889          9.889          9.889 
+
+Voltage Terms:
+VD                 462.671m       462.671m       462.671m
+
+Power DC Terms:
+PD                   1.307m         1.307m         1.307m
+PS                   0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                   2.825m         2.825m         2.825m
+
+Condition:
+State                   OFF            OFF            OFF
+
+Device Variables:
+area                 1.000          1.000          1.000 
+ic                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1
+Using model:         KT608A
+
+Beta Terms:
+BETADC               1.240 
+BETAAC               7.269 
+
+Capacitance Terms:
+CPI                180.433p
+CMU                170.060p
+CBX                  0.000 
+CJS                  0.000 
+
+Conductance Terms:
+GM                 223.434m
+
+Current Terms:
+IB                   3.936m
+IC                   4.881m
+
+Resistance Terms:
+RPI                 32.534 
+RX                   3.000 
+RO                 346.366 
+
+Voltage Terms:
+VBE                601.008m
+VBC                482.315m
+VCE                118.693m
+
+Frequency Terms:
+FT               101.459MEG
+
+Power DC Terms:
+PD                   2.945m
+PS                   0.000 
+
+DC Pin Currents:
+Ib                   3.936m
+Ic                   4.881m
+Ie                  -8.818m
+Is                   0.000 
+
+Condition:
+State                   SAT
+
+Device Variables:
+area                 1.000 
+vbe                  0.000 
+vce                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2             R3
+V                    -4.537         -3.936         -4.881 
+Power DC Terms:
+PD                   20.587m        15.495m        23.827m
+
+DC Pin Currents:
+Ir                   -4.537m        -3.936m        -4.881m
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V2             V3             V4
+V                    5.000          5.000          5.000          5.000 
+Power DC Terms:
+PG                  14.123m        14.123m        14.123m        24.407m
+
+DC Pin Currents:
+ISource             -2.825m        -2.825m        -2.825m        -4.881m
+
+

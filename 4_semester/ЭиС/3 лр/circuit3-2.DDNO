@@ -1,0 +1,81 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuit3-2                         ***
+***                           06.04.2025 17:14:01                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             5.000   2             4.561   3             5.000  
+4             5.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:               D1            D2            D3
+Using model:     5082-2207     5082-2207     5082-2207
+
+Capacitance Terms:
+CAP               329.075f      329.075f      329.075f
+
+Current Terms:
+ID                  1.520m        1.520m        1.520m
+
+Resistance Terms:
+REQ                18.373        18.373        18.373 
+
+Voltage Terms:
+VD                438.849m      438.849m      438.849m
+
+Power DC Terms:
+PD                667.219u      667.219u      667.219u
+PS                  0.000         0.000         0.000 
+
+DC Pin Currents:
+Id                  1.520m        1.520m        1.520m
+
+Condition:
+State                  OFF           OFF           OFF
+
+Device Variables:
+area                1.000         1.000         1.000 
+ic                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1
+V                   -4.561 
+Power DC Terms:
+PD                  20.804m
+
+DC Pin Currents:
+Ir                  -4.561m
+
+Device Variables:
+tc1                  0.000 
+tc2                  0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1            V2            V3
+V                   5.000         5.000         5.000 
+Power DC Terms:
+PG                  7.602m        7.602m        7.602m
+
+DC Pin Currents:
+ISource            -1.520m       -1.520m       -1.520m
+
+

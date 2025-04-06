@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1280,800
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=28
+NLCnt=39
 TXCnt=0
 
 [shapedef]
@@ -17,6 +17,22 @@ Line=22,-3,22,3
 Line=26,-7,26,7
 Line=26,0,48,0
 Current=32,8,16,8
+
+[shapedef]
+Name=Bjt.root
+Line=0,0,13,0
+Rectangle=13,-12,15,12
+Current=32,-24,32,-16
+Current=32,24,32,16
+Current=0,-8,8,-8
+PolyOpen=3
+PolyLine=24,-24
+PolyLine=24,-12
+PolyLine=14,-2
+PolyOpen=3
+PolyLine=24,24
+PolyLine=24,12
+PolyLine=14,2
 
 [shapedef]
 Name=Diode
@@ -39,6 +55,14 @@ Line=0,0,12,0
 Line=12,-8,12,8
 Line=18,-4,18,4
 Line=24,0,24,0
+
+[shapedef]
+Name=NPN
+Root="Bjt.root",0,0,0
+PolyClosed=3
+PolyLine=20,12
+PolyLine=24,12
+PolyLine=24,8
 
 [shapedef]
 Name=Resistor
@@ -86,7 +110,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=513
-Used=289
+Used=291
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -96,13 +120,26 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6145
-Used=67
+Mask=6401
+Used=68
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
 Pin="Plus",6,0,-4,-5
 Pin="Minus",0,0,-10,-5
+
+[compdef]
+Name=NPN
+Definition=NPN
+Shape=NPN
+Mask=5121
+Used=15
+memo=NPN Transistor
+Label Offset=37,-17,-14,33
+PinCnt=3
+Pin="Collector",3,-3,4,14
+Pin="Base",0,0,-18,-3
+Pin="Emitter",3,3,5,1
 
 [Circuit]
 Window Placement=2,3, -1,-1, -8,-31, 26,26,919,440
@@ -361,6 +398,73 @@ Style=8192
 ON=0,0,PACKAGE
 V
 
+[Comp]
+Name=NPN
+Px=1016,328
+
+[Attr]
+ON=37,-17,PART
+V=Q1
+Style=8192
+
+[Attr]
+ON=37,-3,MODEL
+V=KT608A
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=944,328,1016,328
+
+[Wire]
+Pxs=1040,248,1040,272
+
+[Wire]
+Pxs=1040,272,1144,272
+
+[Wire]
+Pxs=1040,272,1040,304
+
+[Wire]
+Pxs=1040,352,1040,416
+
+[Comp]
+Name=Ground
+Px=1040,416
+Rot=7
+
+[Comp]
+Name=Battery
+Px=1040,120
+Rot=1
+
+[Attr]
+ON=10,13,PART
+V=V4
+Style=8192
+
+[Attr]
+ON=0,0,VALUE
+V
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=1040,168,1040,200
+
+[Comp]
+Name=Ground
+Px=968,120
+Rot=2
+
+[Wire]
+Pxs=968,120,1040,120
+
 [Schematic]
 CurrentSection 0=0
 CurrentSection 1=0
@@ -559,7 +663,7 @@ Scale 1=1
 Scale 2=1
 SB 3=182,100
 Scale 3=1
-Px=1038,196
+Px=1268,287
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -623,7 +727,6 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
-SB 0=0,14
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF

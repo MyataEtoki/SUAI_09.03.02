@@ -1,0 +1,137 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuit3-5                         ***
+***                           06.04.2025 17:43:25                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             5.000  
+4           449.708m  5             5.000   6             4.984  
+7           403.204m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:               D1            D2            D3
+Using model:     5082-2207     5082-2207     5082-2207
+
+Capacitance Terms:
+CAP               332.664f      332.664f       70.709f
+
+Current Terms:
+ID                  2.043m        2.043m     -305.571p
+
+Resistance Terms:
+REQ                13.675        13.675        26.636G
+
+Voltage Terms:
+VD                449.708m      449.708m       -4.550 
+
+Power DC Terms:
+PD                918.585u      918.585u        1.390n
+PS                  0.000         0.000         0.000 
+
+DC Pin Currents:
+Id                  2.043m        2.043m     -305.571p
+
+Condition:
+State                  OFF           OFF           OFF
+
+Device Variables:
+area                1.000         1.000         1.000 
+ic                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:               Q1
+Using model:        KT608A
+
+Beta Terms:
+BETADC             33.710m
+BETAAC             46.626m
+
+Capacitance Terms:
+CPI                38.723p
+CMU                 6.282p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM                218.692u
+
+Current Terms:
+IB                465.043u
+IC                 15.677u
+
+Resistance Terms:
+RPI               213.203 
+RX                  3.000 
+RO               10.846MEG
+
+Voltage Terms:
+VBE               403.204m
+VBC                -4.581 
+VCE                 4.984 
+
+Frequency Terms:
+FT                773.380K
+
+Power DC Terms:
+PD                265.645u
+PS                  0.000 
+
+DC Pin Currents:
+Ib                465.043u
+Ic                 15.677u
+Ie               -480.720u
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R3            R4            R5
+V                   -4.550       -15.677m      -46.504m
+Power DC Terms:
+PD                  20.705m      245.757n       21.626u
+
+DC Pin Currents:
+Ir                  -4.550m      -15.677u     -465.043u
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1            V2            V3            V4
+V                   0.000         0.000         5.000         5.000 
+Power DC Terms:
+PG                  0.000         0.000         1.528n       22.830m
+
+DC Pin Currents:
+ISource             2.043m        2.043m     -305.571p       -4.566m
+
+
