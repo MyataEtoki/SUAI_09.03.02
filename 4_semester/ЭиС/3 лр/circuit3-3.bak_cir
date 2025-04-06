@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1280,800
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=21
+NLCnt=28
 TXCnt=0
 
 [shapedef]
@@ -19,20 +19,19 @@ Line=26,0,48,0
 Current=32,8,16,8
 
 [shapedef]
-Name=Bjt.root
-Line=0,0,13,0
-Rectangle=13,-12,15,12
-Current=32,-24,32,-16
-Current=32,24,32,16
-Current=0,-8,8,-8
-PolyOpen=3
-PolyLine=24,-24
-PolyLine=24,-12
-PolyLine=14,-2
-PolyOpen=3
-PolyLine=24,24
-PolyLine=24,12
-PolyLine=14,2
+Name=Diode
+Root="Diode.root",0,0,0
+
+[shapedef]
+Name=Diode.root
+Line=0,0,20,0
+Line=28,0,48,0
+Rectangle=18,-8,20,8
+PolyClosed=3
+PolyLine=20,0
+PolyLine=28,-8
+PolyLine=28,8
+Current=32,16,16,16
 
 [shapedef]
 Name=Ground
@@ -40,14 +39,6 @@ Line=0,0,12,0
 Line=12,-8,12,8
 Line=18,-4,18,4
 Line=24,0,24,0
-
-[shapedef]
-Name=NPN
-Root="Bjt.root",0,0,0
-PolyClosed=3
-PolyLine=20,12
-PolyLine=24,12
-PolyLine=24,8
 
 [shapedef]
 Name=Resistor
@@ -67,24 +58,23 @@ PolyLine=48,0
 Current=32,8,16,8
 
 [compdef]
-Name=NPN
-Definition=NPN
-Shape=NPN
-Mask=5121
-Used=14
-memo=NPN Transistor
-Label Offset=37,-17,-14,33
-PinCnt=3
-Pin="Collector",3,-3,4,14
-Pin="Base",0,0,-18,-3
-Pin="Emitter",3,3,5,1
+Name=Diode
+Definition=Diode
+Shape=Diode
+Mask=5633
+Used=17
+memo=Diode
+Label Offset=17,10,12,12
+PinCnt=2
+Pin="Anode",6,0,-9,-8
+Pin="Cathode",0,0,-20,-8
 
 [compdef]
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=6145
-Used=171
+Mask=6401
+Used=175
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -95,8 +85,8 @@ Pin="Minus",0,0,-14,-4
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=1793
-Used=279
+Mask=513
+Used=289
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -106,8 +96,8 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6657
-Used=61
+Mask=6145
+Used=67
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -143,25 +133,62 @@ Show Attribute Text=True
 Show Grid Text=True
 
 [Comp]
-Name=NPN
-Px=504,256
+Name=Diode
+Px=800,248
+Rot=6
 
 [Attr]
-ON=37,-17,PART
-V=Q1
+ON=-34,10,PART
+V=D1
 Style=8192
 
 [Attr]
-ON=37,-3,MODEL
-V=KT608A
+ON=-86,24,MODEL
+V=5082-2207
 
 [Attr]
-ON=0,0,PACKAGE
-V
+ON=-84,52,PACKAGE
+V=Outline-C2
+
+[Comp]
+Name=Diode
+Px=800,328
+Rot=6
+
+[Attr]
+ON=-34,10,PART
+V=D2
+Style=8192
+
+[Attr]
+ON=-86,24,MODEL
+V=5082-2207
+
+[Attr]
+ON=-84,52,PACKAGE
+V=Outline-C2
+
+[Comp]
+Name=Diode
+Px=800,408
+Rot=6
+
+[Attr]
+ON=-34,10,PART
+V=D3
+Style=8192
+
+[Attr]
+ON=-86,24,MODEL
+V=5082-2207
+
+[Attr]
+ON=-84,52,PACKAGE
+V=Outline-C2
 
 [Comp]
 Name=Resistor
-Px=528,128
+Px=832,480
 Rot=1
 
 [Attr]
@@ -179,8 +206,124 @@ ON=0,0,PACKAGE
 V
 
 [Comp]
+Name=Ground
+Px=832,560
+Rot=7
+
+[Wire]
+Pxs=832,528,832,560
+
+[Wire]
+Pxs=800,248,832,248
+
+[Wire]
+Pxs=832,248,832,328
+
+[Wire]
+Pxs=800,328,832,328
+
+[Wire]
+Pxs=832,328,832,408
+
+[Wire]
+Pxs=800,408,832,408
+
+[Wire]
+Pxs=832,408,832,480
+
+[Wire]
+Pxs=832,328,896,328
+
+[Wire]
+Pxs=648,248,752,248
+
+[Wire]
+Pxs=648,328,752,328
+
+[Wire]
+Pxs=648,408,752,408
+
+[Comp]
+Name=Battery
+Px=600,248
+
+[Attr]
+ON=19,7,PART
+V=V1
+Style=8192
+
+[Attr]
+ON=0,0,VALUE
+V
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Battery
+Px=600,328
+
+[Attr]
+ON=19,7,PART
+V=V2
+Style=8192
+
+[Attr]
+ON=0,0,VALUE
+V
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Battery
+Px=600,408
+
+[Attr]
+ON=19,7,PART
+V=V3
+Style=8192
+
+[Attr]
+ON=0,0,VALUE
+V
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Px=512,248
+Rot=2
+
+[Comp]
+Name=Ground
+Px=512,328
+Rot=2
+
+[Comp]
+Name=Ground
+Px=512,408
+Rot=2
+
+[Wire]
+Pxs=512,248,600,248
+
+[Wire]
+Pxs=512,328,600,328
+
+[Wire]
+Pxs=512,408,600,408
+
+[Comp]
 Name=Resistor
-Px=368,256
+Px=896,328
 
 [Attr]
 ON=18,6,PART
@@ -196,95 +339,27 @@ Style=8192
 ON=0,0,PACKAGE
 V
 
-[Comp]
-Name=Ground
-Px=528,384
-Rot=7
+[Wire]
+Pxs=896,328,912,328
 
 [Comp]
-Name=Battery
-Px=288,352
-Rot=5
+Name=Resistor
+Px=1040,200
+Rot=1
 
 [Attr]
-ON=10,-27,PART
-V=V1
+ON=8,11,PART
+V=R3
 Style=8192
 
 [Attr]
-ON=0,0,VALUE
-V
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=288,256,288,304
-
-[Wire]
-Pxs=288,256,368,256
-
-[Wire]
-Pxs=416,256,504,256
-
-[Wire]
-Pxs=528,176,528,208
-
-[Wire]
-Pxs=288,352,288,384
-
-[Wire]
-Pxs=288,384,528,384
-
-[Comp]
-Name=Battery
-Px=624,80
-Rot=2
-
-[Attr]
-ON=-35,-21,PART
-V=V2
-Style=8192
-
-[Attr]
-ON=0,0,VALUE
-V
+ON=8,25,RESISTANCE
+V=1000
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
-
-[Wire]
-Pxs=528,80,528,128
-
-[Wire]
-Pxs=528,80,576,80
-
-[Wire]
-Pxs=576,80,592,80
-
-[Comp]
-Name=Ground
-Px=704,120
-Rot=7
-
-[Wire]
-Pxs=624,80,704,80
-
-[Wire]
-Pxs=704,80,704,120
-
-[Wire]
-Pxs=528,208,640,208
-
-[Wire]
-Pxs=528,208,528,232
-
-[Wire]
-Pxs=528,280,528,384
 
 [Schematic]
 CurrentSection 0=0
@@ -460,7 +535,7 @@ ALIGNBOTTOM=No
 
 [Section]
 Index=0
-Name="circuit3"
+Name="circuit3-3"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -482,8 +557,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
+SB 3=182,100
 Scale 3=1
-Px=665,299
+Px=1038,196
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
