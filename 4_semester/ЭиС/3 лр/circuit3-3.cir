@@ -291,7 +291,7 @@ Style=8192
 
 [Attr]
 ON=0,0,VALUE
-V
+V=5
 Style=8192
 
 [Attr]
@@ -309,7 +309,7 @@ Style=8192
 
 [Attr]
 ON=0,0,VALUE
-V
+V=5
 Style=8192
 
 [Attr]
@@ -327,7 +327,7 @@ Style=8192
 
 [Attr]
 ON=0,0,VALUE
-V
+V=5
 Style=8192
 
 [Attr]
@@ -446,7 +446,7 @@ V=V4
 Style=8192
 
 [Attr]
-ON=0,0,VALUE
+ON=15,1,VALUE
 V=5
 Style=8192
 
@@ -681,7 +681,7 @@ Scale 1=1
 Scale 2=1
 SB 3=182,100
 Scale 3=1
-Px=1258,252
+Px=824,199
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
