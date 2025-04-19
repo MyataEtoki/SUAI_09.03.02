@@ -1,0 +1,15 @@
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\bin\Debug\net8.0\Паттерны-Программирования.exe
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\bin\Debug\net8.0\Паттерны-Программирования.deps.json
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\bin\Debug\net8.0\Паттерны-Программирования.runtimeconfig.json
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\bin\Debug\net8.0\Паттерны-Программирования.dll
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\bin\Debug\net8.0\Паттерны-Программирования.pdb
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.AssemblyInfoInputs.cache
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.AssemblyInfo.cs
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.csproj.CoreCompileInputs.cache
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.sourcelink.json
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.dll
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\refint\Паттерны-Программирования.dll
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.pdb
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\Паттерны-Программирования.genruntimeconfig.cache
+C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\Паттерны-Программирования\obj\Debug\net8.0\ref\Паттерны-Программирования.dll

@@ -1,0 +1,131 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuit4-3                         ***
+***                           18.04.2025 15:44:33                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             9.998   2           443.347m  3             0.000  
+4             0.000   5            10.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:               Q1
+Using model:        KT608A
+
+Beta Terms:
+BETADC             55.039m
+BETAAC            156.848m
+
+Capacitance Terms:
+CPI                40.544p
+CMU                 5.054p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM                  1.077m
+
+Current Terms:
+IB                689.708u
+IC                 37.961u
+
+Resistance Terms:
+RPI               145.579 
+RX                  3.000 
+RO                2.369MEG
+
+Voltage Terms:
+VBE               443.347m
+VBC                -9.555 
+VCE                 9.998 
+
+Frequency Terms:
+FT                3.761MEG
+
+Power DC Terms:
+PD                685.317u
+PS                  0.000 
+
+DC Pin Currents:
+Ib                689.708u
+Ic                 37.961u
+Ie               -727.669u
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3            R4         V1.RS
+V                   -9.557        -1.898m     -443.347m        0.000         0.000 
+Power DC Terms:
+PD                  91.330m       72.051n        3.931m        0.000         0.000 
+
+DC Pin Currents:
+Ir                  -9.557m      -37.961u       -8.867m        0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1            C2            C3
+V                 -443.347m        9.998         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                V1
+Using model:           1MHZ
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V2
+V                  10.000 
+Power DC Terms:
+PG                 95.946m
+
+DC Pin Currents:
+ISource            -9.595m
+
+

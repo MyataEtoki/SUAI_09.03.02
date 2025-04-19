@@ -95,8 +95,8 @@ Pin="Minus",0,0,-14,-4
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=1793
-Used=297
+Mask=769
+Used=299
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -115,7 +115,7 @@ Pin="Plus",6,0,-4,-5
 Pin="Minus",0,0,-10,-5
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 26,26,919,440
+Window Placement=2,3, -1,-1, -8,-31, 156,156,1245,570
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
