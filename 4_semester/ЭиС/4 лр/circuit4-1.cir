@@ -8,7 +8,7 @@ Screen=1280,800
 MCAPVersion=12.2.0.5
 Key ID=Demo
 NLCnt=22
-TXCnt=1
+TXCnt=0
 
 [shapedef]
 Name=Battery
@@ -84,7 +84,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6401
-Used=187
+Used=194
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -95,8 +95,8 @@ Pin="Minus",0,0,-14,-4
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=1793
-Used=300
+Mask=1025
+Used=303
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -106,8 +106,8 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=7425
-Used=70
+Mask=6657
+Used=72
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -115,7 +115,7 @@ Pin="Plus",6,0,-4,-5
 Pin="Minus",0,0,-10,-5
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 156,156,1245,570
+Window Placement=2,3, 0,546, -8,-31, 156,156,1245,570
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -208,7 +208,7 @@ Style=8192
 
 [Attr]
 ON=8,25,RESISTANCE
-V=50
+V=1
 Style=8192
 
 [Attr]
@@ -270,7 +270,7 @@ Style=8192
 
 [Attr]
 ON=0,0,VALUE
-V=1200
+V=200
 Style=8192
 
 [Attr]
@@ -318,24 +318,6 @@ Pxs=624,376,848,376
 
 [Wire]
 Pxs=624,376,624,456
-
-[Grid Text]
-Text="Dynamic DC"
-Text="Temperature=27"
-Text="Displaying DC Voltages"
-Text="PGT = Total power generated = [PGT]"
-Text="PDT = Total power dissipated = [PDT]"
-BannerDC=True
-Px=16,157
-Height=-15
-Color=#800000
-Font=Arial
-GridSnap=False
-JustifyH=Left
-JustifyV=Bottom
-Formula=True
-CFill=#C0C0C0
-CBorder=#000000
 
 [Schematic]
 CurrentSection 0=0
@@ -534,7 +516,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=372,332
+Px=827,339
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -598,7 +580,7 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
-SB 0=0,21
+SB 0=0,12
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF
@@ -765,7 +747,7 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
+MonMaxShow=4
 MonPageWidth=66
 MonPlotWidth=21
 MonExprXWidth=142
@@ -1362,7 +1344,7 @@ Seed=0
 
 [Limits]
 Analysis=Transient
-TMax=1u
+TMax=0.01
 TStart=0
 TStep=0
 NPts=51
@@ -1379,7 +1361,7 @@ Analysis=Transient
 Plt=1
 AliasID=1
 XExp=T
-YExp=v(1)
+YExp=v(V)
 XRng=Auto
 YRng=Auto
 Options=LINEARX,LINEARY
@@ -1425,10 +1407,33 @@ NOFmtY=3E
 [WaveForm]
 Analysis=Transient
 AliasID=-1
+XExp=Ò
 Options=LINEARX,LINEARY
 Enable=Enable
 Line Color=#008000
 Text Color=#008000
+Rainbow=False
+VFmtX=3
+VFmtY=3
+ScaleFactorX="None"
+ScaleFactorY="None"
+ScaleUnitsX="Auto"
+ScaleUnitsY="Auto"
+SFmtX=2
+SFmtY=2
+NOFmtX=3E
+NOFmtY=3E
+
+[WaveForm]
+Analysis=Transient
+AliasID=3
+XExp=Ò
+XRng=Auto
+YRng=Auto
+Options=LINEARX,LINEARY
+Enable=Enable
+Line Color=#FF00FF
+Text Color=#FF00FF
 Rainbow=False
 VFmtX=3
 VFmtY=3

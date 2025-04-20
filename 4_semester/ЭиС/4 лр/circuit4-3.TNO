@@ -2,9 +2,27 @@
 ***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
 ***                                                                          ***
 ***                                                                          ***
-***                         Dynamic DC of circuit4-3                         ***
-***                           20.04.2025 16:00:49                            ***
+***                     Transient Analysis of circuit4-3                     ***
+***                           20.04.2025 23:32:21                            ***
 ********************************************************************************
+Limits
+======
+Maximum Run Time           0.003
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
 
 *****************************************************
 ***                Temperature=27                 ***

@@ -7,8 +7,8 @@ Shape Version=11.00
 Screen=1280,800
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=22
-TXCnt=1
+NLCnt=21
+TXCnt=0
 
 [shapedef]
 Name=Battery
@@ -80,42 +80,42 @@ Pin="Base",0,0,-18,-3
 Pin="Emitter",3,3,5,1
 
 [compdef]
-Name=Resistor
-Definition=Resistor
-Shape=Resistor
-Mask=6401
-Used=187
-memo=Resistor
-Label Offset=18,6,8,11
-PinCnt=2
-Pin="Plus",6,0,-10,-4
-Pin="Minus",0,0,-14,-4
-
-[compdef]
-Name=Ground
-Definition=Ground
-Shape=Ground
-Mask=1793
-Used=300
-memo=Ground
-Label Offset=0,0,0,0
-PinCnt=1
-Pin="PinA",0,0,-3,-7
-
-[compdef]
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=7425
-Used=70
+Mask=6657
+Used=72
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
 Pin="Plus",6,0,-4,-5
 Pin="Minus",0,0,-10,-5
 
+[compdef]
+Name=Ground
+Definition=Ground
+Shape=Ground
+Mask=1025
+Used=303
+memo=Ground
+Label Offset=0,0,0,0
+PinCnt=1
+Pin="PinA",0,0,-3,-7
+
+[compdef]
+Name=Resistor
+Definition=Resistor
+Shape=Resistor
+Mask=6401
+Used=194
+memo=Resistor
+Label Offset=18,6,8,11
+PinCnt=2
+Pin="Plus",6,0,-10,-4
+Pin="Minus",0,0,-14,-4
+
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 156,156,1245,570
+Window Placement=2,3, 0,546, -8,-31, 156,156,1245,570
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -145,7 +145,7 @@ Show Grid Text=True
 
 [Comp]
 Name=NPN
-Px=600,232
+Px=576,296
 
 [Attr]
 ON=37,-17,PART
@@ -161,17 +161,42 @@ ON=0,0,PACKAGE
 V
 
 [Comp]
-Name=Resistor
-Px=456,232
+Name=Battery
+Px=728,264
+Rot=5
 
 [Attr]
-ON=18,6,PART
+ON=10,-27,PART
+V=V1
+Style=8192
+
+[Attr]
+ON=10,-41,VALUE
+V=10
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Px=600,416
+Rot=7
+
+[Comp]
+Name=Resistor
+Px=480,216
+Rot=1
+
+[Attr]
+ON=8,11,PART
 V=R1
 Style=8192
 
 [Attr]
-ON=18,20,RESISTANCE
-V=100000
+ON=8,25,RESISTANCE
+V=1000
 Style=8192
 
 [Attr]
@@ -180,16 +205,17 @@ V
 
 [Comp]
 Name=Resistor
-Px=464,376
+Px=480,344
+Rot=1
 
 [Attr]
-ON=18,6,PART
+ON=8,11,PART
 V=R2
 Style=8192
 
 [Attr]
-ON=18,20,RESISTANCE
-V=1
+ON=8,25,RESISTANCE
+V=425.6
 Style=8192
 
 [Attr]
@@ -198,7 +224,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=848,328
+Px=600,168
 Rot=1
 
 [Attr]
@@ -215,127 +241,50 @@ Style=8192
 ON=0,0,PACKAGE
 V
 
-[Comp]
-Name=Resistor
-Px=624,136
-Rot=1
-
-[Attr]
-ON=8,11,PART
-V=R4
-Style=8192
-
-[Attr]
-ON=8,25,RESISTANCE
-V=50
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=624,456
-Rot=7
-
-[Comp]
-Name=Battery
-Px=848,248
-Rot=3
-
-[Attr]
-ON=-26,-27,PART
-V=V1
-Style=8192
-
-[Attr]
-ON=-26,-41,VALUE
-V=10
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Battery
-Px=376,352
-Rot=5
-
-[Attr]
-ON=10,-27,PART
-V=V2
-Style=8192
-
-[Attr]
-ON=0,0,VALUE
-V=1200
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
+[Wire]
+Pxs=480,264,480,296
 
 [Wire]
-Pxs=376,352,376,376
+Pxs=480,392,480,400
 
 [Wire]
-Pxs=376,376,464,376
+Pxs=480,400,600,400
 
 [Wire]
-Pxs=512,376,624,376
+Pxs=600,320,600,400
 
 [Wire]
-Pxs=848,248,848,328
+Pxs=600,400,600,416
 
 [Wire]
-Pxs=848,88,848,200
+Pxs=600,400,728,400
 
 [Wire]
-Pxs=624,88,848,88
+Pxs=728,264,728,400
 
 [Wire]
-Pxs=624,88,624,136
+Pxs=600,216,600,272
 
 [Wire]
-Pxs=624,184,624,208
+Pxs=480,296,576,296
 
 [Wire]
-Pxs=504,232,600,232
+Pxs=480,296,480,344
 
 [Wire]
-Pxs=376,232,456,232
+Pxs=480,144,480,216
 
 [Wire]
-Pxs=376,232,376,304
+Pxs=480,144,600,144
 
 [Wire]
-Pxs=624,256,624,376
+Pxs=600,144,600,168
 
 [Wire]
-Pxs=624,376,848,376
+Pxs=600,144,728,144
 
 [Wire]
-Pxs=624,376,624,456
-
-[Grid Text]
-Text="Dynamic DC"
-Text="Temperature=27"
-Text="Displaying DC Voltages"
-Text="PGT = Total power generated = [PGT]"
-Text="PDT = Total power dissipated = [PDT]"
-BannerDC=True
-Px=16,157
-Height=-15
-Color=#800000
-Font=Arial
-GridSnap=False
-JustifyH=Left
-JustifyV=Bottom
-Formula=True
-CFill=#C0C0C0
-CBorder=#000000
+Pxs=728,144,728,216
 
 [Schematic]
 CurrentSection 0=0
@@ -511,7 +460,7 @@ ALIGNBOTTOM=No
 
 [Section]
 Index=0
-Name="circuit4-1"
+Name="circuit4-2"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -534,7 +483,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=372,332
+Px=1004,321
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
