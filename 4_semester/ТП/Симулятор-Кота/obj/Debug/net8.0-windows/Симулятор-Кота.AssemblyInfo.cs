@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Симулятор-Кота")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56da85b12717da6ce3fe01d8b03edaff381e3a9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b44b09ba16a4ce12a64ddee11e5614d0c8a5a759")]
 [assembly: System.Reflection.AssemblyProductAttribute("Симулятор-Кота")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Симулятор-Кота")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

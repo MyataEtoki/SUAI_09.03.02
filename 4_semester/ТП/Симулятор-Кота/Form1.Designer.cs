@@ -121,7 +121,6 @@
             Controls.Add(btn_food);
             Name = "Form1";
             Text = "Симулятор кота";
-            Load += Form1_Load;
             ResumeLayout(false);
         }
 

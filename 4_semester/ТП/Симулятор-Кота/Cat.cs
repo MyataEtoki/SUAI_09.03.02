@@ -25,31 +25,31 @@ namespace Симулятор_Кота
     // Кот — издатель
     public class Кот : Питомец, ISubject
     {
-        private List<IObserver> _observers = new List<IObserver>();
+        private List<IObserver> owners = new List<IObserver>();
 
-        private static Кот _instance;
+        private static Кот cat_exist;
         private Кот() { }
-        public static Кот GetInstance()
+        public static Кот Take_cat()
         {
-            if (_instance == null)
-                _instance = new Кот();
+            if (cat_exist == null)
+                cat_exist = new Кот();
 
-            return _instance;
+            return cat_exist;
         }
 
         public void Subscribe(IObserver observer)
         {
-            _observers.Add(observer);
+            owners.Add(observer);
         }
 
         public void Unsubscribe(IObserver observer)
         {
-            _observers.Remove(observer);
+            owners.Remove(observer);
         }
 
         public override void Notify(string message)
         {
-            foreach (var observer in _observers)
+            foreach (var observer in owners)
             {
                 observer.Update(message);
             }
@@ -69,7 +69,7 @@ namespace Симулятор_Кота
     }
 
 
-    // Жительница квартиры — подписчик
+    // Жительница квартиры — подписчик - женский пол
     public class ЖительницаКвартиры : IObserver
     {
         private string _имя;
@@ -85,7 +85,7 @@ namespace Симулятор_Кота
         }
     }
 
-    // Жилец квартиры — подписчик
+    // Жилец квартиры — подписчик - мужской пол
     public class ЖилецКвартиры : IObserver
     {
         private string _имя;

@@ -4,7 +4,7 @@ namespace Симулятор_Кота
 {
     public partial class Form1 : Form
     {
-        Кот кот = Кот.GetInstance();        
+        Кот кот = Кот.Take_cat();        
 
         ЖительницаКвартиры мама = new ЖительницаКвартиры("Анна");
         ЖилецКвартиры папа = new ЖилецКвартиры("Борис");
@@ -14,9 +14,6 @@ namespace Симулятор_Кота
 
             InitializeComponent();
 
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
         }
 
         // Функции кота
@@ -54,7 +51,7 @@ namespace Симулятор_Кота
 
         private void btn_singleton_Click(object sender, EventArgs e)
         {
-            Кот новыйКот = Кот.GetInstance();
+            Кот новыйКот = Кот.Take_cat();
             if (кот == новыйКот)
             {
                 MessageBox.Show("Мы выгнали старого кота и взяли нового, но это оказался тот же кот. Нам от него не избавиться...");
