@@ -1,0 +1,116 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuit5-1                         ***
+***                           11.05.2025 17:02:04                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2        -2.748E-029  3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current  Inductor     Current 
+K1.LP         0.000   K1.LS     2.748E-031 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:          27-02
+
+Capacitance Terms:
+CAP                  0.000 
+
+Current Terms:
+ID               2.748E-041
+
+Resistance Terms:
+REQ                721.170G
+
+Voltage Terms:
+VD               2.748E-029
+
+Power DC Terms:
+PD               7.554E-070
+PS                   0.000 
+
+DC Pin Currents:
+Id               2.748E-041
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:              V1.RS           K1.R             R1
+V                     0.000          0.000     -2.748E-029
+Power DC Terms:
+PD                    0.000          0.000      7.554E-060
+
+DC Pin Currents:
+Ir                    0.000          0.000     -2.748E-031
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:              K1.LP          K1.LS
+V                     0.000          0.000 
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Il                    0.000      2.748E-031
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1
+V                 2.748E-029
+Power DC Terms:
+PS                    0.000 
+
+DC Pin Currents:
+Ic                    0.000 
+
+Device Variables:
+ic                    0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                 V1
+Using model:            1MHZ
+V                     0.000 
+Power DC Terms:
+PG                    0.000 
+
+DC Pin Currents:
+ISource               0.000 
+
+
