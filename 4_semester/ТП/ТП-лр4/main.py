@@ -39,15 +39,26 @@ class BinaryTree:
                 self._insert_recursive(current.right, new_node)
 
     def find(self, key):
-        return self._find_recursive(self.root, key)
+        path = []
+        node = self._find_recursive_verbose(self.root, key, path)
+        for step in path:
+            print(step)
+        return node
 
-    def _find_recursive(self, current, key):
-        if current is None or current.val == key:
+    def _find_recursive_verbose(self, current, key, path):
+        if current is None:
+            path.append("Дошли до пустого узла — значение не найдено.")
+            return None
+        path.append(f"Находимся в узле {current.val}")
+        if key == current.val:
+            path.append(f"Значение {key} найдено!")
             return current
-        if key < current.val:
-            return self._find_recursive(current.left, key)
+        elif key < current.val:
+            path.append(f"{key} < {current.val} → идём влево")
+            return self._find_recursive_verbose(current.left, key, path)
         else:
-            return self._find_recursive(current.right, key)
+            path.append(f"{key} > {current.val} → идём вправо")
+            return self._find_recursive_verbose(current.right, key, path)
 
     def delete(self, key):
         node = self.find(key)
@@ -150,10 +161,6 @@ if __name__ == "__main__":
             try:
                 value = int(input("Введите значение для поиска: "))
                 node = tree.find(value)
-                if node:
-                    print(f"Узел со значением {value} найден.")
-                else:
-                    print(f"Узел со значением {value} не найден.")
             except ValueError:
                 print("Ошибка: введите корректное число.")
         elif choice == "4":
