@@ -1,61 +1,166 @@
 import random
 
-numbers = [int(x) for x in str(random.random())[2::]]
-print(numbers)
+# Генерация случайной последовательности
+def generate_random_sequence():
+    return [int(x) for x in str(random.random())[2:]]
 
-# класс для узлов
+# Класс для узлов
 class Node:
     def __init__(self, key):
+        self.val = key
         self.left = None
         self.right = None
-        self.val = key
+        self.parent = None
 
-# добавить узел
-def insert(root, key):
-    if root is None:
-        return Node(key)
-    else:
-        if key < root.val:
-            root.left = insert(root.left, key)
+# Класс бинарного дерева
+class BinaryTree:
+    def __init__(self):
+        self.root = None
+
+    def insert(self, key):
+        new_node = Node(key)
+        if self.root is None:
+            self.root = new_node
         else:
-            root.right = insert(root.right, key)
-    return root
+            self._insert_recursive(self.root, new_node)
 
-# удалить узел
-def delete(key):
+    def _insert_recursive(self, current, new_node):
+        if new_node.val < current.val:
+            if current.left is None:
+                current.left = new_node
+                new_node.parent = current
+            else:
+                self._insert_recursive(current.left, new_node)
+        else:
+            if current.right is None:
+                current.right = new_node
+                new_node.parent = current
+            else:
+                self._insert_recursive(current.right, new_node)
 
-# найти узел - тупой обход дерева
-def find(root, key):
-    if key < root.val:
-        find(root.left, key)
-    elif key > root.val:
-        find(root.right, key)
-    elif key == root.val:
-        return 
+    def find(self, key):
+        return self._find_recursive(self.root, key)
+
+    def _find_recursive(self, current, key):
+        if current is None or current.val == key:
+            return current
+        if key < current.val:
+            return self._find_recursive(current.left, key)
+        else:
+            return self._find_recursive(current.right, key)
+
+    def delete(self, key):
+        node = self.find(key)
+        if node is None:
+            print(f"Узел со значением {key} не найден.")
+            return False
+        self._delete_node(node)
+        print(f"Узел со значением {key} успешно удалён.")
+        return True
+
+    def _delete_node(self, node):
+        if node.left is None:
+            self._transplant(node, node.right)
+        elif node.right is None:
+            self._transplant(node, node.left)
+        else:
+            successor = self._minimum(node.right)
+            if successor.parent != node:
+                self._transplant(successor, successor.right)
+                successor.right = node.right
+                if successor.right:
+                    successor.right.parent = successor
+            self._transplant(node, successor)
+            successor.left = node.left
+            if successor.left:
+                successor.left.parent = successor
+
+    def _transplant(self, u, v):
+        if u.parent is None:
+            self.root = v
+        elif u == u.parent.left:
+            u.parent.left = v
+        else:
+            u.parent.right = v
+        if v:
+            v.parent = u.parent
+
+    def _minimum(self, node):
+        while node.left:
+            node = node.left
+        return node
+
+    def print_tree(self):
+        if self.root is not None:
+            self._print_tree(self.root)
+        else:
+            print("Дерево пусто.")
+
+    def _print_tree(self, node, prefix="", is_left=True):
+        if node.right:
+            new_prefix = prefix + ("│   " if is_left else "    ")
+            self._print_tree(node.right, new_prefix, False)
+        print(prefix + ("└── " if is_left else "┌── ") + str(node.val))
+        if node.left:
+            new_prefix = prefix + ("    " if is_left else "│   ")
+            self._print_tree(node.left, new_prefix, True)
+
+    def add(self, key):
+        if self.find(key):
+            print(f"Узел со значением {key} уже существует.")
+            return False
+        self.insert(key)
+        print(f"Узел со значением {key} успешно добавлен.")
+        return True
 
 
-# странный вывод, ПЕРЕДЕЛАТЬ
-def print_tree(root, level=0, prefix="Root: "):
-    if root is not None:
-        print(" " * (level * 4) + prefix + str(root.val))
-        if root.left is not None or root.right is not None:
-            print_tree(root.left, level + 1, "L--- ")
-            print_tree(root.right, level + 1, "R--- ")
-
-
-def build_tree_from_array(arr):
-    root = None
-    for num in arr:
-        root = insert(root, num)
-    return root
-
-
-# Пример использования
 if __name__ == "__main__":
+    numbers = generate_random_sequence()
+    print("Сгенерированная последовательность:", numbers)
 
-    # Построение дерева
-    tree_root = build_tree_from_array(numbers)
+    tree = BinaryTree()
+    for num in numbers:
+        tree.insert(num)
 
-    # Вывод дерева в консоль
-    print("Бинарное дерево:")
-    print_tree(tree_root)
+    print("\nБинарное дерево:")
+    tree.print_tree()
+
+    while True:
+        print("\nВыберите действие:")
+        print("1. Добавить узел")
+        print("2. Удалить узел")
+        print("3. Найти узел")
+        print("4. Показать дерево")
+        print("5. Выход")
+        choice = input("Введите номер действия: ")
+
+        if choice == "1":
+            try:
+                value = int(input("Введите значение для добавления: "))
+                tree.add(value)
+            except ValueError:
+                print("Ошибка: введите корректное число.")
+        elif choice == "2":
+            try:
+                value = int(input("Введите значение для удаления: "))
+                tree.delete(value)
+            except ValueError:
+                print("Ошибка: введите корректное число.")
+        elif choice == "3":
+            try:
+                value = int(input("Введите значение для поиска: "))
+                node = tree.find(value)
+                if node:
+                    print(f"Узел со значением {value} найден.")
+                else:
+                    print(f"Узел со значением {value} не найден.")
+            except ValueError:
+                print("Ошибка: введите корректное число.")
+        elif choice == "4":
+            print("\nБинарное дерево:")
+            tree.print_tree()
+        elif choice == "5":
+            print("Выход из программы.")
+            break
+        else:
+            print("Неверный ввод. Пожалуйста, выберите от 1 до 5.")
