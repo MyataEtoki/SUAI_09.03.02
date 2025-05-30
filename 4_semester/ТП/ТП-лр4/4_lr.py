@@ -1,8 +1,11 @@
+# Бинарное дерево с CRUD, без балансировки. D - через трансплантацию дерева.
+
 import random
 
 # Генерация случайной последовательности
 def generate_random_sequence():
-    return [int(x) for x in str(random.random())[2:]]
+    size = random.randint(1, 32)
+    return [random.randint(0, 127) for _ in range(size)]
 
 # Класс для узлов
 class Node:
