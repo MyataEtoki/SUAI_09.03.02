@@ -1,4 +1,4 @@
-# Бинарное дерево с CRUD, без балансировки. D - через трансплантацию дерева.
+# Бинарное дерево с CRUD, без балансировки.
 
 import random
 
@@ -66,7 +66,7 @@ class BinaryTree:
     def delete(self, key):
         node = self.find(key)
         if node is None:
-            print(f"Узел со значением {key} не найден.")
+            print(f"Удалять нечего. {key} не найден.")
             return False
         self._delete_node(node)
         print(f"Узел со значением {key} успешно удалён.")
@@ -77,9 +77,9 @@ class BinaryTree:
             self._transplant(node, node.right)
         elif node.right is None:
             self._transplant(node, node.left)
-        else:
+        else: # выбираем преемника - левый или правый ребёнок (чаще всего минимальный в правом)
             successor = self._minimum(node.right)
-            if successor.parent != node:
+            if successor.parent != node: # преемник не прямой наследник
                 self._transplant(successor, successor.right)
                 successor.right = node.right
                 if successor.right:
@@ -89,6 +89,7 @@ class BinaryTree:
             if successor.left:
                 successor.left.parent = successor
 
+    # непосредственно пересадка поддерева чуть выше - заменяет u на v в дереве, обновляет родителя v.
     def _transplant(self, u, v):
         if u.parent is None:
             self.root = v

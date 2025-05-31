@@ -88,4 +88,3 @@ output_path = "bucharest_metro_full.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(metro_data, f, ensure_ascii=False, indent=2)
 
-output_path
