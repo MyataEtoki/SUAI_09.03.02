@@ -35,7 +35,7 @@ transfers = [
     ("Piața Unirii (M2)", "Piața Unirii (M3)"),
     ("Eroilor (M1)", "Eroilor (M3)"),
     ("Izvor (M1)", "Izvor (M3)"),
-    ("Politehnica", "Politehnica"),  # общая станция
+    ("Politehnica", "Politehnica"),
     ("Piața Victoriei (M1)", "Piața Victoriei (M2)"),
     ("Gara de Nord (M1)", "Gara de Nord (M4)"),
     ("Basarab (M1)", "Basarab (M4)")

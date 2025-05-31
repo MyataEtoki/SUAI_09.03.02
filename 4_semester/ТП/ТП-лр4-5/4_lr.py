@@ -4,7 +4,7 @@ import random
 
 # Генерация случайной последовательности
 def generate_random_sequence():
-    size = random.randint(1, 32)
+    size = random.randint(1, 16)
     return [random.randint(0, 127) for _ in range(size)]
 
 # Класс для узлов

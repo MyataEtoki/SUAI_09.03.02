@@ -33,7 +33,7 @@
       "line": "M1"
     },
     {
-      "name": "Piața Muncii",
+      "name": "Piata Muncii",
       "line": "M1"
     },
     {
@@ -45,11 +45,11 @@
       "line": "M1"
     },
     {
-      "name": "Ștefan cel Mare",
+      "name": "Stefan cel Mare",
       "line": "M1"
     },
     {
-      "name": "Piața Victoriei (M1)",
+      "name": "Piata Victoriei (M1)",
       "line": "M1"
     },
     {
@@ -61,7 +61,7 @@
       "line": "M1"
     },
     {
-      "name": "Crângași",
+      "name": "Crangasi",
       "line": "M1"
     },
     {
@@ -69,7 +69,7 @@
       "line": "M1"
     },
     {
-      "name": "Grozăvești",
+      "name": "Grozavesti",
       "line": "M1"
     },
     {
@@ -85,7 +85,7 @@
       "line": "M1"
     },
     {
-      "name": "Piața Unirii (M1)",
+      "name": "Piata Unirii (M1)",
       "line": "M1"
     },
     {
@@ -113,11 +113,11 @@
       "line": "M2"
     },
     {
-      "name": "Piața Victoriei (M2)",
+      "name": "Piata Victoriei (M2)",
       "line": "M2"
     },
     {
-      "name": "Piața Romană",
+      "name": "Piata Romana",
       "line": "M2"
     },
     {
@@ -125,7 +125,7 @@
       "line": "M2"
     },
     {
-      "name": "Piața Unirii (M2)",
+      "name": "Piata Unirii (M2)",
       "line": "M2"
     },
     {
@@ -133,19 +133,19 @@
       "line": "M2"
     },
     {
-      "name": "Eroii Revoluției",
+      "name": "Eroii Revolutiei",
       "line": "M2"
     },
     {
-      "name": "Constantin Brâncoveanu",
+      "name": "Constantin Brancoveanu",
       "line": "M2"
     },
     {
-      "name": "Piața Sudului",
+      "name": "Piata Sudului",
       "line": "M2"
     },
     {
-      "name": "Apărătorii Patriei",
+      "name": "Aparatorii Patriei",
       "line": "M2"
     },
     {
@@ -161,7 +161,7 @@
       "line": "M3"
     },
     {
-      "name": "Păcii",
+      "name": "Pacii",
       "line": "M3"
     },
     {
@@ -185,7 +185,7 @@
       "line": "M3"
     },
     {
-      "name": "Piața Unirii (M3)",
+      "name": "Piata Unirii (M3)",
       "line": "M3"
     },
     {
@@ -225,7 +225,7 @@
       "line": "M4"
     },
     {
-      "name": "Grivița",
+      "name": "Grivita",
       "line": "M4"
     },
     {
@@ -241,7 +241,7 @@
       "line": "M4"
     },
     {
-      "name": "Străulești",
+      "name": "Straulesti",
       "line": "M4"
     }
   ],
@@ -283,11 +283,11 @@
     },
     {
       "from": "Dristor 1 (M1)",
-      "to": "Piața Muncii",
+      "to": "Piata Muncii",
       "time": 2
     },
     {
-      "from": "Piața Muncii",
+      "from": "Piata Muncii",
       "to": "Iancului",
       "time": 2
     },
@@ -298,16 +298,16 @@
     },
     {
       "from": "Obor",
-      "to": "Ștefan cel Mare",
+      "to": "Stefan cel Mare",
       "time": 2
     },
     {
-      "from": "Ștefan cel Mare",
-      "to": "Piața Victoriei (M1)",
+      "from": "Stefan cel Mare",
+      "to": "Piata Victoriei (M1)",
       "time": 2
     },
     {
-      "from": "Piața Victoriei (M1)",
+      "from": "Piata Victoriei (M1)",
       "to": "Gara de Nord (M1)",
       "time": 2
     },
@@ -318,21 +318,21 @@
     },
     {
       "from": "Basarab (M1)",
-      "to": "Crângași",
+      "to": "Crangasi",
       "time": 2
     },
     {
-      "from": "Crângași",
+      "from": "Crangasi",
       "to": "Petrache Poenaru",
       "time": 2
     },
     {
       "from": "Petrache Poenaru",
-      "to": "Grozăvești",
+      "to": "Grozavesti",
       "time": 2
     },
     {
-      "from": "Grozăvești",
+      "from": "Grozavesti",
       "to": "Politehnica",
       "time": 2
     },
@@ -348,11 +348,11 @@
     },
     {
       "from": "Izvor (M1)",
-      "to": "Piața Unirii (M1)",
+      "to": "Piata Unirii (M1)",
       "time": 2
     },
     {
-      "from": "Piața Unirii (M1)",
+      "from": "Piata Unirii (M1)",
       "to": "Timpuri Noi",
       "time": 2
     },
@@ -378,51 +378,51 @@
     },
     {
       "from": "Aviatorilor",
-      "to": "Piața Victoriei (M2)",
+      "to": "Piata Victoriei (M2)",
       "time": 2
     },
     {
-      "from": "Piața Victoriei (M2)",
-      "to": "Piața Romană",
+      "from": "Piata Victoriei (M2)",
+      "to": "Piata Romana",
       "time": 2
     },
     {
-      "from": "Piața Romană",
+      "from": "Piata Romana",
       "to": "Universitate",
       "time": 2
     },
     {
       "from": "Universitate",
-      "to": "Piața Unirii (M2)",
+      "to": "Piata Unirii (M2)",
       "time": 2
     },
     {
-      "from": "Piața Unirii (M2)",
+      "from": "Piata Unirii (M2)",
       "to": "Tineretului",
       "time": 2
     },
     {
       "from": "Tineretului",
-      "to": "Eroii Revoluției",
+      "to": "Eroii Revolutiei",
       "time": 2
     },
     {
-      "from": "Eroii Revoluției",
-      "to": "Constantin Brâncoveanu",
+      "from": "Eroii Revolutiei",
+      "to": "Constantin Brancoveanu",
       "time": 2
     },
     {
-      "from": "Constantin Brâncoveanu",
-      "to": "Piața Sudului",
+      "from": "Constantin Brancoveanu",
+      "to": "Piata Sudului",
       "time": 2
     },
     {
-      "from": "Piața Sudului",
-      "to": "Apărătorii Patriei",
+      "from": "Piata Sudului",
+      "to": "Aparatorii Patriei",
       "time": 2
     },
     {
-      "from": "Apărătorii Patriei",
+      "from": "Aparatorii Patriei",
       "to": "IMGB",
       "time": 2
     },
@@ -433,11 +433,11 @@
     },
     {
       "from": "Preciziei",
-      "to": "Păcii",
+      "to": "Pacii",
       "time": 2
     },
     {
-      "from": "Păcii",
+      "from": "Pacii",
       "to": "Gorjului",
       "time": 2
     },
@@ -463,11 +463,11 @@
     },
     {
       "from": "Izvor (M3)",
-      "to": "Piața Unirii (M3)",
+      "to": "Piata Unirii (M3)",
       "time": 2
     },
     {
-      "from": "Piața Unirii (M3)",
+      "from": "Piata Unirii (M3)",
       "to": "Timpuri Noi",
       "time": 2
     },
@@ -508,11 +508,11 @@
     },
     {
       "from": "Basarab (M4)",
-      "to": "Grivița",
+      "to": "Grivita",
       "time": 2
     },
     {
-      "from": "Grivița",
+      "from": "Grivita",
       "to": "1 Mai",
       "time": 2
     },
@@ -528,7 +528,7 @@
     },
     {
       "from": "Laminorului",
-      "to": "Străulești",
+      "to": "Straulesti",
       "time": 2
     },
     {
@@ -552,33 +552,33 @@
       "time": 4
     },
     {
-      "from": "Piața Unirii (M1)",
-      "to": "Piața Unirii (M2)",
+      "from": "Piata Unirii (M1)",
+      "to": "Piata Unirii (M2)",
       "time": 4
     },
     {
-      "from": "Piața Unirii (M2)",
-      "to": "Piața Unirii (M1)",
+      "from": "Piata Unirii (M2)",
+      "to": "Piata Unirii (M1)",
       "time": 4
     },
     {
-      "from": "Piața Unirii (M1)",
-      "to": "Piața Unirii (M3)",
+      "from": "Piata Unirii (M1)",
+      "to": "Piata Unirii (M3)",
       "time": 4
     },
     {
-      "from": "Piața Unirii (M3)",
-      "to": "Piața Unirii (M1)",
+      "from": "Piata Unirii (M3)",
+      "to": "Piata Unirii (M1)",
       "time": 4
     },
     {
-      "from": "Piața Unirii (M2)",
-      "to": "Piața Unirii (M3)",
+      "from": "Piata Unirii (M2)",
+      "to": "Piata Unirii (M3)",
       "time": 4
     },
     {
-      "from": "Piața Unirii (M3)",
-      "to": "Piața Unirii (M2)",
+      "from": "Piata Unirii (M3)",
+      "to": "Piata Unirii (M2)",
       "time": 4
     },
     {
@@ -602,13 +602,13 @@
       "time": 4
     },
     {
-      "from": "Piața Victoriei (M1)",
-      "to": "Piața Victoriei (M2)",
+      "from": "Piata Victoriei (M1)",
+      "to": "Piata Victoriei (M2)",
       "time": 4
     },
     {
-      "from": "Piața Victoriei (M2)",
-      "to": "Piața Victoriei (M1)",
+      "from": "Piata Victoriei (M2)",
+      "to": "Piata Victoriei (M1)",
       "time": 4
     },
     {
