@@ -1,0 +1,636 @@
+{
+  "stations": [
+    {
+      "name": "Pantelimon",
+      "line": "M1"
+    },
+    {
+      "name": "Republica",
+      "line": "M1"
+    },
+    {
+      "name": "Costin Georgian",
+      "line": "M1"
+    },
+    {
+      "name": "Titan",
+      "line": "M1"
+    },
+    {
+      "name": "Nicolae Grigorescu (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "1 Decembrie 1918",
+      "line": "M1"
+    },
+    {
+      "name": "Dristor 2",
+      "line": "M1"
+    },
+    {
+      "name": "Dristor 1 (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Piața Muncii",
+      "line": "M1"
+    },
+    {
+      "name": "Iancului",
+      "line": "M1"
+    },
+    {
+      "name": "Obor",
+      "line": "M1"
+    },
+    {
+      "name": "Ștefan cel Mare",
+      "line": "M1"
+    },
+    {
+      "name": "Piața Victoriei (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Gara de Nord (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Basarab (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Crângași",
+      "line": "M1"
+    },
+    {
+      "name": "Petrache Poenaru",
+      "line": "M1"
+    },
+    {
+      "name": "Grozăvești",
+      "line": "M1"
+    },
+    {
+      "name": "Politehnica",
+      "line": "M1"
+    },
+    {
+      "name": "Eroilor (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Izvor (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Piața Unirii (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Timpuri Noi",
+      "line": "M1"
+    },
+    {
+      "name": "Mihai Bravu",
+      "line": "M1"
+    },
+    {
+      "name": "Dristor 1 (M1)",
+      "line": "M1"
+    },
+    {
+      "name": "Pipera",
+      "line": "M2"
+    },
+    {
+      "name": "Aurel Vlaicu",
+      "line": "M2"
+    },
+    {
+      "name": "Aviatorilor",
+      "line": "M2"
+    },
+    {
+      "name": "Piața Victoriei (M2)",
+      "line": "M2"
+    },
+    {
+      "name": "Piața Romană",
+      "line": "M2"
+    },
+    {
+      "name": "Universitate",
+      "line": "M2"
+    },
+    {
+      "name": "Piața Unirii (M2)",
+      "line": "M2"
+    },
+    {
+      "name": "Tineretului",
+      "line": "M2"
+    },
+    {
+      "name": "Eroii Revoluției",
+      "line": "M2"
+    },
+    {
+      "name": "Constantin Brâncoveanu",
+      "line": "M2"
+    },
+    {
+      "name": "Piața Sudului",
+      "line": "M2"
+    },
+    {
+      "name": "Apărătorii Patriei",
+      "line": "M2"
+    },
+    {
+      "name": "IMGB",
+      "line": "M2"
+    },
+    {
+      "name": "Depoul IMGB",
+      "line": "M2"
+    },
+    {
+      "name": "Preciziei",
+      "line": "M3"
+    },
+    {
+      "name": "Păcii",
+      "line": "M3"
+    },
+    {
+      "name": "Gorjului",
+      "line": "M3"
+    },
+    {
+      "name": "Lujerului",
+      "line": "M3"
+    },
+    {
+      "name": "Politehnica",
+      "line": "M3"
+    },
+    {
+      "name": "Eroilor (M3)",
+      "line": "M3"
+    },
+    {
+      "name": "Izvor (M3)",
+      "line": "M3"
+    },
+    {
+      "name": "Piața Unirii (M3)",
+      "line": "M3"
+    },
+    {
+      "name": "Timpuri Noi",
+      "line": "M3"
+    },
+    {
+      "name": "Mihai Bravu",
+      "line": "M3"
+    },
+    {
+      "name": "Dristor 1 (M3)",
+      "line": "M3"
+    },
+    {
+      "name": "Nicolae Grigorescu (M3)",
+      "line": "M3"
+    },
+    {
+      "name": "1 Decembrie 1918",
+      "line": "M3"
+    },
+    {
+      "name": "Nicolae Teclu",
+      "line": "M3"
+    },
+    {
+      "name": "Anghel Saligny",
+      "line": "M3"
+    },
+    {
+      "name": "Gara de Nord (M4)",
+      "line": "M4"
+    },
+    {
+      "name": "Basarab (M4)",
+      "line": "M4"
+    },
+    {
+      "name": "Grivița",
+      "line": "M4"
+    },
+    {
+      "name": "1 Mai",
+      "line": "M4"
+    },
+    {
+      "name": "Parc Bazilescu",
+      "line": "M4"
+    },
+    {
+      "name": "Laminorului",
+      "line": "M4"
+    },
+    {
+      "name": "Străulești",
+      "line": "M4"
+    }
+  ],
+  "connections": [
+    {
+      "from": "Pantelimon",
+      "to": "Republica",
+      "time": 2
+    },
+    {
+      "from": "Republica",
+      "to": "Costin Georgian",
+      "time": 2
+    },
+    {
+      "from": "Costin Georgian",
+      "to": "Titan",
+      "time": 2
+    },
+    {
+      "from": "Titan",
+      "to": "Nicolae Grigorescu (M1)",
+      "time": 2
+    },
+    {
+      "from": "Nicolae Grigorescu (M1)",
+      "to": "1 Decembrie 1918",
+      "time": 2
+    },
+    {
+      "from": "1 Decembrie 1918",
+      "to": "Dristor 2",
+      "time": 2
+    },
+    {
+      "from": "Dristor 2",
+      "to": "Dristor 1 (M1)",
+      "time": 2
+    },
+    {
+      "from": "Dristor 1 (M1)",
+      "to": "Piața Muncii",
+      "time": 2
+    },
+    {
+      "from": "Piața Muncii",
+      "to": "Iancului",
+      "time": 2
+    },
+    {
+      "from": "Iancului",
+      "to": "Obor",
+      "time": 2
+    },
+    {
+      "from": "Obor",
+      "to": "Ștefan cel Mare",
+      "time": 2
+    },
+    {
+      "from": "Ștefan cel Mare",
+      "to": "Piața Victoriei (M1)",
+      "time": 2
+    },
+    {
+      "from": "Piața Victoriei (M1)",
+      "to": "Gara de Nord (M1)",
+      "time": 2
+    },
+    {
+      "from": "Gara de Nord (M1)",
+      "to": "Basarab (M1)",
+      "time": 2
+    },
+    {
+      "from": "Basarab (M1)",
+      "to": "Crângași",
+      "time": 2
+    },
+    {
+      "from": "Crângași",
+      "to": "Petrache Poenaru",
+      "time": 2
+    },
+    {
+      "from": "Petrache Poenaru",
+      "to": "Grozăvești",
+      "time": 2
+    },
+    {
+      "from": "Grozăvești",
+      "to": "Politehnica",
+      "time": 2
+    },
+    {
+      "from": "Politehnica",
+      "to": "Eroilor (M1)",
+      "time": 2
+    },
+    {
+      "from": "Eroilor (M1)",
+      "to": "Izvor (M1)",
+      "time": 2
+    },
+    {
+      "from": "Izvor (M1)",
+      "to": "Piața Unirii (M1)",
+      "time": 2
+    },
+    {
+      "from": "Piața Unirii (M1)",
+      "to": "Timpuri Noi",
+      "time": 2
+    },
+    {
+      "from": "Timpuri Noi",
+      "to": "Mihai Bravu",
+      "time": 2
+    },
+    {
+      "from": "Mihai Bravu",
+      "to": "Dristor 1 (M1)",
+      "time": 2
+    },
+    {
+      "from": "Pipera",
+      "to": "Aurel Vlaicu",
+      "time": 2
+    },
+    {
+      "from": "Aurel Vlaicu",
+      "to": "Aviatorilor",
+      "time": 2
+    },
+    {
+      "from": "Aviatorilor",
+      "to": "Piața Victoriei (M2)",
+      "time": 2
+    },
+    {
+      "from": "Piața Victoriei (M2)",
+      "to": "Piața Romană",
+      "time": 2
+    },
+    {
+      "from": "Piața Romană",
+      "to": "Universitate",
+      "time": 2
+    },
+    {
+      "from": "Universitate",
+      "to": "Piața Unirii (M2)",
+      "time": 2
+    },
+    {
+      "from": "Piața Unirii (M2)",
+      "to": "Tineretului",
+      "time": 2
+    },
+    {
+      "from": "Tineretului",
+      "to": "Eroii Revoluției",
+      "time": 2
+    },
+    {
+      "from": "Eroii Revoluției",
+      "to": "Constantin Brâncoveanu",
+      "time": 2
+    },
+    {
+      "from": "Constantin Brâncoveanu",
+      "to": "Piața Sudului",
+      "time": 2
+    },
+    {
+      "from": "Piața Sudului",
+      "to": "Apărătorii Patriei",
+      "time": 2
+    },
+    {
+      "from": "Apărătorii Patriei",
+      "to": "IMGB",
+      "time": 2
+    },
+    {
+      "from": "IMGB",
+      "to": "Depoul IMGB",
+      "time": 2
+    },
+    {
+      "from": "Preciziei",
+      "to": "Păcii",
+      "time": 2
+    },
+    {
+      "from": "Păcii",
+      "to": "Gorjului",
+      "time": 2
+    },
+    {
+      "from": "Gorjului",
+      "to": "Lujerului",
+      "time": 2
+    },
+    {
+      "from": "Lujerului",
+      "to": "Politehnica",
+      "time": 2
+    },
+    {
+      "from": "Politehnica",
+      "to": "Eroilor (M3)",
+      "time": 2
+    },
+    {
+      "from": "Eroilor (M3)",
+      "to": "Izvor (M3)",
+      "time": 2
+    },
+    {
+      "from": "Izvor (M3)",
+      "to": "Piața Unirii (M3)",
+      "time": 2
+    },
+    {
+      "from": "Piața Unirii (M3)",
+      "to": "Timpuri Noi",
+      "time": 2
+    },
+    {
+      "from": "Timpuri Noi",
+      "to": "Mihai Bravu",
+      "time": 2
+    },
+    {
+      "from": "Mihai Bravu",
+      "to": "Dristor 1 (M3)",
+      "time": 2
+    },
+    {
+      "from": "Dristor 1 (M3)",
+      "to": "Nicolae Grigorescu (M3)",
+      "time": 2
+    },
+    {
+      "from": "Nicolae Grigorescu (M3)",
+      "to": "1 Decembrie 1918",
+      "time": 2
+    },
+    {
+      "from": "1 Decembrie 1918",
+      "to": "Nicolae Teclu",
+      "time": 2
+    },
+    {
+      "from": "Nicolae Teclu",
+      "to": "Anghel Saligny",
+      "time": 2
+    },
+    {
+      "from": "Gara de Nord (M4)",
+      "to": "Basarab (M4)",
+      "time": 2
+    },
+    {
+      "from": "Basarab (M4)",
+      "to": "Grivița",
+      "time": 2
+    },
+    {
+      "from": "Grivița",
+      "to": "1 Mai",
+      "time": 2
+    },
+    {
+      "from": "1 Mai",
+      "to": "Parc Bazilescu",
+      "time": 2
+    },
+    {
+      "from": "Parc Bazilescu",
+      "to": "Laminorului",
+      "time": 2
+    },
+    {
+      "from": "Laminorului",
+      "to": "Străulești",
+      "time": 2
+    },
+    {
+      "from": "Dristor 1 (M1)",
+      "to": "Dristor 1 (M3)",
+      "time": 4
+    },
+    {
+      "from": "Dristor 1 (M3)",
+      "to": "Dristor 1 (M1)",
+      "time": 4
+    },
+    {
+      "from": "Nicolae Grigorescu (M1)",
+      "to": "Nicolae Grigorescu (M3)",
+      "time": 4
+    },
+    {
+      "from": "Nicolae Grigorescu (M3)",
+      "to": "Nicolae Grigorescu (M1)",
+      "time": 4
+    },
+    {
+      "from": "Piața Unirii (M1)",
+      "to": "Piața Unirii (M2)",
+      "time": 4
+    },
+    {
+      "from": "Piața Unirii (M2)",
+      "to": "Piața Unirii (M1)",
+      "time": 4
+    },
+    {
+      "from": "Piața Unirii (M1)",
+      "to": "Piața Unirii (M3)",
+      "time": 4
+    },
+    {
+      "from": "Piața Unirii (M3)",
+      "to": "Piața Unirii (M1)",
+      "time": 4
+    },
+    {
+      "from": "Piața Unirii (M2)",
+      "to": "Piața Unirii (M3)",
+      "time": 4
+    },
+    {
+      "from": "Piața Unirii (M3)",
+      "to": "Piața Unirii (M2)",
+      "time": 4
+    },
+    {
+      "from": "Eroilor (M1)",
+      "to": "Eroilor (M3)",
+      "time": 4
+    },
+    {
+      "from": "Eroilor (M3)",
+      "to": "Eroilor (M1)",
+      "time": 4
+    },
+    {
+      "from": "Izvor (M1)",
+      "to": "Izvor (M3)",
+      "time": 4
+    },
+    {
+      "from": "Izvor (M3)",
+      "to": "Izvor (M1)",
+      "time": 4
+    },
+    {
+      "from": "Piața Victoriei (M1)",
+      "to": "Piața Victoriei (M2)",
+      "time": 4
+    },
+    {
+      "from": "Piața Victoriei (M2)",
+      "to": "Piața Victoriei (M1)",
+      "time": 4
+    },
+    {
+      "from": "Gara de Nord (M1)",
+      "to": "Gara de Nord (M4)",
+      "time": 4
+    },
+    {
+      "from": "Gara de Nord (M4)",
+      "to": "Gara de Nord (M1)",
+      "time": 4
+    },
+    {
+      "from": "Basarab (M1)",
+      "to": "Basarab (M4)",
+      "time": 4
+    },
+    {
+      "from": "Basarab (M4)",
+      "to": "Basarab (M1)",
+      "time": 4
+    }
+  ],
+  "transfer_time": 4
+}
