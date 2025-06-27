@@ -1,7 +1,8 @@
 import json
+from os import linesep
 
 # Список станций и соединений по линиям, основываясь на карте
-lines = {
+'''lines = {
     "M1": [
         "Pantelimon", "Republica", "Costin Georgian", "Titan", "Nicolae Grigorescu (M1)",
         "1 Decembrie 1918", "Dristor 2", "Dristor 1 (M1)", "Piața Muncii", "Iancului",
@@ -39,6 +40,17 @@ transfers = [
     ("Piața Victoriei (M1)", "Piața Victoriei (M2)"),
     ("Gara de Nord (M1)", "Gara de Nord (M4)"),
     ("Basarab (M1)", "Basarab (M4)")
+]'''
+
+lines ={
+    "M1" : ["Амфетамин", "Героин", "Кокаин"],
+    "M2" : ["Негоден", "Рогозин", "Дрон"],
+    "M3" : ["Арбуз", "Дыня", "Клубника"]
+}
+
+transfers = [
+    ("Кокаин", "Рогозин"),
+    ("Дрон", "Дыня")
 ]
 
 # Построение JSON-структур
@@ -62,7 +74,7 @@ for stops in lines.values():
             "time": 2
         })
 
-# Добавляем пересадки
+# Добавляем пересадки с линии на линию
 for from_station, to_station in transfers:
     if from_station != to_station:  # настоящая пересадка
         connections.append({
@@ -84,7 +96,7 @@ metro_data = {
 }
 
 # Сохраняем в JSON
-output_path = "bucharest_metro_full.json"
+output_path = "bucharest_metro_test.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(metro_data, f, ensure_ascii=False, indent=2)
 

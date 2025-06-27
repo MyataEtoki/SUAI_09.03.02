@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f95cd75-2519-4e00-8f41-16b6b7eaaeb8" name="Changes" comment="aaa">
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/4_lr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ТП-лр4-5/4_lr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/actlly_5_lr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/draw_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/metro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/5_lr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/bucharest_metro_full.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/metro_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/pathfinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/5_lr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/bucharest_metro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/bucharest_metro_full.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/make_json_5_lr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/make_json_5_lr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/metro_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/pathfinder.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,122 +58,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.123.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4_lr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_lr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pathfinder.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/etoki/Documents/SUAI_09.03.02/4_semester/ТП/ТП-лр4-5/.venv/Scripts/python.exe&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.123.executor": "Run",
+    "Python.4_lr.executor": "Run",
+    "Python.5_lr.executor": "Run",
+    "Python.actlly_5_lr.executor": "Run",
+    "Python.draw_map.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.make_json_5_lr.executor": "Run",
+    "Python.not-main.executor": "Run",
+    "Python.pathfinder.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/etoki/Documents/SUAI_09.03.02/4_semester/ТП/ТП-лр4-5/.venv/Scripts/python.exe",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="ТП-лр4-5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="ТП-лр4-5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="ТП-лр4-5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="ТП-лр4-5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="ТП-лр4-5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="ТП-лр4-5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\ТП-лр4-5\tests" />
+      <recent name="C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\ТП-лр4-5" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
