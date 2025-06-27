@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f95cd75-2519-4e00-8f41-16b6b7eaaeb8" name="Changes" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/actlly_5_lr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/draw_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/metro.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/5_lr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/bucharest_metro_full.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/metro_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/pathfinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/5_lr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/bucharest_metro.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/bucharest_metro_full.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/make_json_5_lr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ТП-лр4-5/tests/make_json_5_lr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/metro_parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ТП-лр4-5/pathfinder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8f95cd75-2519-4e00-8f41-16b6b7eaaeb8" name="Changes" comment="upd: я переделала всё, json, логику поиска, рисование карты (использую для проверки json-а)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,11 +56,14 @@
     "Python.pathfinder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/etoki/Documents/SUAI_09.03.02/4_semester/ТП/ТП-лр4-5/.venv/Scripts/python.exe",
+    "last_opened_file_path": "C:/Users/etoki/Documents/SUAI_09.03.02/4_semester/ТП/ТП-лр4-5/tests",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\ТП-лр4-5\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\ТП-лр4-5\tests" />
       <recent name="C:\Users\etoki\Documents\SUAI_09.03.02\4_semester\ТП\ТП-лр4-5" />
@@ -169,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748681458637</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="upd: я переделала всё, json, логику поиска, рисование карты (использую для проверки json-а)">
+      <option name="closed" value="true" />
+      <created>1750987123620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750987123620</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +187,7 @@
     <MESSAGE value="add 5 lr (T_T)" />
     <MESSAGE value="upd 5 lr (T_T)" />
     <MESSAGE value="aaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+    <MESSAGE value="upd: я переделала всё, json, логику поиска, рисование карты (использую для проверки json-а)" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: я переделала всё, json, логику поиска, рисование карты (использую для проверки json-а)" />
   </component>
 </project>
