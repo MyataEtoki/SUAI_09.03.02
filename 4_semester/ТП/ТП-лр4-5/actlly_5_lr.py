@@ -64,7 +64,7 @@ def find_shortest_path(metro_data, start_station, end_station, transfer_time=5, 
 
         if station == end_station:
             transfer_count = sum(1 for i in range(
-                1, len(path)) if path[i][1] != path[i-1][1]) #считаем пересадки ипо изменению линии в пути
+                1, len(path)) if path[i][1] != path[i-1][1]) #считаем пересадки по изменению линии в пути
             if cost < best_cost:
                 best_cost = cost
                 best_path = path
@@ -73,14 +73,16 @@ def find_shortest_path(metro_data, start_station, end_station, transfer_time=5, 
 
         stations = line_stations[line]
         idx = stations.index(station)
+        #смотрим для каждой станции соседей, и для каждого соседа время до него - разведываем маршруты
         for next_idx in [idx - 1, idx + 1]:
             if 0 <= next_idx < len(stations):
                 next_station = stations[next_idx]
                 t = travel_times.get(line, {}).get(
-                    station, default_travel_time)
+                    station, default_travel_time) #время в пути до след станции
                 heapq.heappush(
                     heap, (cost + t, transfers, next_station, line, path + [(next_station, line)]))
 
+        #смотрим пути с пересадками на другие линии, если есть возможность
         for other_line in station_lines[station]:
             if other_line != line:
                 heapq.heappush(heap, (cost + transfer_time, transfers + 1,
