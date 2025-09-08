@@ -2,6 +2,16 @@ import matplotlib.pyplot as plt
 from tests.metro_parser import load_metro_map
 import networkx as nx
 
+def metro_map_to_dict(metro_data):
+    """Преобразуем текстовою схему в удобный словарь"""
+    metro_dict = {}
+    for line in metro_data['lines']:
+        line_name = line['name']
+        stations = [station if isinstance(station, str) else station.get(
+            'name', '') for station in line['stations']]
+        metro_dict[line_name] = stations
+    return metro_dict
+
 def draw_metro_map(metro_data, filename="metro_map.png"):
     G = nx.Graph()
     color_map = {}
