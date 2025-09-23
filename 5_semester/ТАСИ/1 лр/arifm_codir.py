@@ -22,18 +22,7 @@ b_array={
         'е':1}
 #c_array=[0,0.03,0.12,0.21,0.3,0.39,0.48,0.57,0.66,0.83,1]
 #c_array=[0,0.2,0.4,0.6,0.8,1]
-'''
-L_array=[0 for i in range(len(c_array))]
-h_array=[1 for i in range(len(c_array))]
 
-for i in range(1,len(c_array),1):
-    L_array[i]=L_array[i-1]+c_array[-i-1]*(h_array[i-1]-L_array[i-1])
-    h_array[i]=L_array[i-1]+c_array[-i]*(h_array[i-1]-L_array[i-1])
-    #print(L_array[i])
-
-for i in range(len(c_array)):
-    print(i, L_array[i], h_array[i])
-'''
 string = 'аргентинец ценит негра1'
 L_array=[0 for i in range(len(string))]
 h_array=[1 for i in range(len(string))]
