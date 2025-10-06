@@ -1,36 +1,29 @@
 import matplotlib.pyplot as plt
 
+# === Чтение текста и подсчет частот ===
 Code = []
-file = open("text.txt", encoding='utf8')
-text = file.read().lower()
-file.close()
-d = {}
+with open("text.txt", encoding='utf8') as file:
+    text = file.read().lower()
 
-# считаем появление символов
+d = {}
 for i in text:
-    # if i not in '!—,.-?...()—:;«»\n':
-    #     d[i] = d.get(i, 0) + 1
     d[i] = d.get(i, 0) + 1
 
-# всего символов:
+# переводим в вероятности
 sum_sim = sum(d.values())
-
-# ч/з => х.ххх
 for i in d:
     d[i] = round(d[i] / sum_sim, 3)
 
-# сортируем по убыванию
+# сортируем по убыванию вероятности
 d = sorted(d.items(), key=lambda x: x[1], reverse=True)
 
-# место для записи кода
+# создаем массив для кодов
 arr = []
 for i in d:
-    arr.append(list(i) + [''])
+    arr.append([i[0], i[1], ''])
 
-
-# === Рекурсивная функция построения дерева ===
+# === Рекурсивная функция построения дерева Шеннона-Фано ===
 def build_tree(arr):
-    # Базовый случай — один символ
     if len(arr) == 1:
         sym, prob, code = arr[0]
         return {
@@ -41,25 +34,30 @@ def build_tree(arr):
             'right': None
         }
 
-    # Считаем точку разбиения
-    half = sum(x[1] for x in arr)
+    total = sum(x[1] for x in arr)
     sum1 = 0
+    index = 0
     for i, j in enumerate(arr):
         sum1 += j[1]
-        if sum1 * 2 >= half:
-            index = i + (abs(2 * sum1 - half) < abs(2 * (sum1 - j[1]) - half))
+        if sum1 >= total / 2:
+            # выбираем индекс так, чтобы разбиение было ближе к половине
+            if i > 0 and abs((sum1 - j[1]) - total / 2) < abs(sum1 - total / 2):
+                index = i
+            else:
+                index = i + 1
             break
 
     left_arr = arr[:index]
     right_arr = arr[index:]
 
+    # добавляем коды
     for i in left_arr:
         i[2] += '0'
     for i in right_arr:
         i[2] += '1'
 
-    left_node = build_tree(left_arr)
-    right_node = build_tree(right_arr)
+    left_node = build_tree(left_arr) if left_arr else None
+    right_node = build_tree(right_arr) if right_arr else None
 
     return {
         'symbols': [s[0] for s in arr],
@@ -69,40 +67,36 @@ def build_tree(arr):
         'right': right_node
     }
 
-
 tree_root = build_tree(arr)
 
-def plot_tree(node, x=0, y=0, dx=1.5, level=0, ax=None):
-    """Рекурсивная отрисовка дерева Шеннона–Фано с кодами"""
+# === Рекурсивная функция для отрисовки дерева ===
+def plot_tree(node, x=0, y=0, dx=5, ax=None):
     if ax is None:
         fig, ax = plt.subplots(figsize=(14, 8))
         ax.axis('off')
-        plot_tree(node, x, y, dx, level, ax=ax)
+        plot_tree(node, x, y, dx, ax=ax)
         plt.show()
         return
 
-    # Формируем подпись узла
+    # подпись узла
     symbols_str = ''.join(node['symbols'])
     prob_str = f"{node['prob_sum']:.3f}"
-    if node['code']:
-        code_str = node['code']
-        label = f"{symbols_str}\nP={prob_str}\ncode={code_str}"
-    else:
-        label = f"{symbols_str}\nP={prob_str}"
+    code_str = node.get('code', '')
+    label = f"{symbols_str}\nP={prob_str}"
+    if code_str:
+        label += f"\ncode={code_str}"
 
     ax.text(x, -y, label, ha='center', va='center',
             bbox=dict(facecolor='lightblue', edgecolor='black', boxstyle='round,pad=0.5'),
             fontsize=9, fontfamily='monospace')
 
+    # соединяем с потомками
     if node['left']:
-        ax.plot([x, x - dx-0.05], [-y - 0.25, -y - 1.5], color='black')
-        plot_tree(node['left'], x - dx-0.05, y + 1.5, dx / 1.8, level + 1, ax=ax)
-
+        ax.plot([x, x - dx], [-y - 0.25, -y - 1.5], color='black')
+        plot_tree(node['left'], x - dx, y + 1.5, dx / 1.5, ax=ax)
     if node['right']:
-        ax.plot([x, x + dx+0.05], [-y - 0.25, -y - 1.5], color='black')
-        plot_tree(node['right'], x + dx+0.05, y + 1.5, dx / 1.8, level + 1, ax=ax)
+        ax.plot([x, x + dx], [-y - 0.25, -y - 1.5], color='black')
+        plot_tree(node['right'], x + dx, y + 1.5, dx / 1.5, ax=ax)
 
-
-# Отрисовать дерево:
+# === Отрисовка дерева ===
 plot_tree(tree_root)
-
