@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-# === Чтение текста и подсчет частот ===
+# Чтение текста и подсчет частот
 Code = []
 with open("text.txt", encoding='utf8') as file:
     text = file.read().lower()
@@ -22,7 +22,7 @@ arr = []
 for i in d:
     arr.append([i[0], i[1], ''])
 
-# === Рекурсивная функция построения дерева Шеннона-Фано ===
+# Рекурсивная функция построения дерева Шеннона-Фано
 def build_tree(arr):
     if len(arr) == 1:
         sym, prob, code = arr[0]
@@ -33,14 +33,15 @@ def build_tree(arr):
             'left': None,
             'right': None
         }
-
+# arr = символ, вероятность, код
     total = sum(x[1] for x in arr)
     sum1 = 0
     index = 0
     for i, j in enumerate(arr):
         sum1 += j[1]
         if sum1 >= total / 2:
-            # выбираем индекс так, чтобы разбиение было ближе к половине
+            # выбираем индекс так, чтобы разбиение было ближе к половине -
+            # лучше левее или правее, если не ровно пополам
             if i > 0 and abs((sum1 - j[1]) - total / 2) < abs(sum1 - total / 2):
                 index = i
             else:
@@ -69,7 +70,7 @@ def build_tree(arr):
 
 tree_root = build_tree(arr)
 
-# === Рекурсивная функция для отрисовки дерева ===
+# Рекурсивная функция отрисовки дерева
 def plot_tree(node, x=0, y=0, dx=5, ax=None):
     if ax is None:
         fig, ax = plt.subplots(figsize=(14, 8))
@@ -92,11 +93,13 @@ def plot_tree(node, x=0, y=0, dx=5, ax=None):
 
     # соединяем с потомками
     if node['left']:
-        ax.plot([x, x - dx], [-y - 0.25, -y - 1.5], color='black')
-        plot_tree(node['left'], x - dx, y + 1.5, dx / 1.5, ax=ax)
+        ax.plot([x, x - dx-0.5], [-y - 0.25, -y - 3], color='black')
+        plot_tree(node['left'], x - dx-0.5, y + 3, dx / 2, ax=ax)
     if node['right']:
         ax.plot([x, x + dx], [-y - 0.25, -y - 1.5], color='black')
-        plot_tree(node['right'], x + dx, y + 1.5, dx / 1.5, ax=ax)
+        plot_tree(node['right'], x + dx, y + 1.5, dx / 1.2, ax=ax)
 
-# === Отрисовка дерева ===
+
 plot_tree(tree_root)
+
+
