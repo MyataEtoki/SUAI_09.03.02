@@ -5,10 +5,10 @@ Sseg SEGMENT STACK
 Sseg ENDS
 
 Dseg SEGMENT
-    X1 DW -17
-    X2 DD 73593
-    X3 DD -77922
-    X4 DW 4329
+    X1 DW -17 
+    X2 DW 01EDh
+    X3 DW -522
+    X4 DW 1Dh      
 Dseg ENDS
 
 Cseg SEGMENT
@@ -22,13 +22,14 @@ Main PROC FAR
     MOV AX, Dseg
     MOV DS, AX
     
+    MOV AX, 0
     ;X3+X2
     MOV AX, X3
     ADD AX, X2
                     
      ;X1/X3               
     MOV AX, X1
-    CWD
+        CWD
     IDIV X3
       
      ;X2xorX1 
@@ -43,6 +44,8 @@ Main PROC FAR
     MOV AX, X4
     MOV CL, 4
     SHL AX, CL
+    
+    MOV AX,0
 
     RET
 Main ENDP
