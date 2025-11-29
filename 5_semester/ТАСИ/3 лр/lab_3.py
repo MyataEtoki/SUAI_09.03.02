@@ -547,7 +547,7 @@ def convert_and_analyze(input_file: str, output_file: str, target_depth: int):
 
 if __name__ == "__main__":
     # Тест с маленьким файлом для демонстрации RGBTRIPLE
-    input_file = "input2_32bit.bmp"
+    input_file = "input_32bit.bmp"
     output_file = "result.bmp"
 
     try:

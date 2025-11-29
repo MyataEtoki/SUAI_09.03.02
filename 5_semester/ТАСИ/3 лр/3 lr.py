@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Конвертер BMP файлов: 32-bit в 4-bit (16 градаций серого)
-Улучшенная версия с детальным выводом процесса конвертации
-"""
-
 import struct
 import os
 import math
@@ -374,7 +368,6 @@ class BMPImage:
         print(f"  ColorImportant: {self.info_header.ColorImportant}")
 
     def _print_palette(self, palette: List[RGBTRIPLE], bit_depth: int):
-        """Вывод информации о палитре"""
         print(f"Палитра ({len(palette)} цветов):")
         if bit_depth == 4:
             print("  Индекс | R   G   B   | HEX    | Уровень серого")
@@ -385,7 +378,6 @@ class BMPImage:
                     f"    {i:2d}   | {color.Red:3d} {color.Green:3d} {color.Blue:3d} | 0x{color.Red:02X} | {gray_level:3d}")
 
     def _show_conversion_examples(self, bit_depth: int, sample_size: int = 5):
-        """Показывает примеры преобразования пикселей"""
         print(f"\nПримеры преобразования ({sample_size} случайных пикселей):")
         print("  Координаты | R   G   B   → Gray     → Индекс | Формула")
         print("  -----------|-------------------------------|-------------------------------")
@@ -410,7 +402,6 @@ class BMPImage:
 
 
 def analyze_file_structure(filename: str):
-    """Анализирует структуру BMP файла"""
     print(f"\n{'=' * 50}")
     print(f"АНАЛИЗ СТРУКТУРЫ ФАЙЛА: {os.path.basename(filename)}")
     print(f"{'=' * 50}")
@@ -453,23 +444,19 @@ def analyze_file_structure(filename: str):
         print(f"Теоретический общий размер файла: {theoretical_total_size} байт")
 
         if file_size == theoretical_total_size:
-            print("✅ Размеры файла соответствуют расчетам")
+            print("Размеры файла соответствуют расчетам")
         else:
-            print(f"⚠️ Разница: {file_size - theoretical_total_size} байт")
+            print(f"Разница: {file_size - theoretical_total_size} байт")
 
 
 def main():
-    print("ЛАБОРАТОРНАЯ РАБОТА: КОНВЕРТАЦИЯ 32-БИТНОГО BMP В 4-БИТНОЕ")
-    print("ВАРИАНТ 5: 32 бита → 4 бита")
-    print("=" * 60)
 
     # Укажи путь к своему 32-битному BMP файлу
-    input_file = "input2_32bit.bmp"
+    input_file = "input_32bit.bmp"
     output_file = "output_4bit.bmp"
 
     if not os.path.exists(input_file):
-        print(f"Файл {input_file} не найден!")
-        print("Убедись, что файл находится в той же папке.")
+        print(f"Файл {input_file} не найден")
         return
 
     try:
@@ -509,12 +496,11 @@ def main():
         print("- 4-bit: 0.5 байта на пиксель → 1000×1000 = 500,000 байт данных")
         print("- Палитра: 16 цветов × 4 байта = 64 байта")
         print("- Заголовки: 14 + 40 = 54 байта")
-        print(f"- Теоретическое сжатие: 8x, фактическое: {compression_ratio:.2f}x")
+        print(f"- Теоретическое уменьшение объема: 8x, фактическое: {compression_ratio:.2f}x")
 
-        print("\n✅ ЛАБОРАТОРНАЯ РАБОТА ВЫПОЛНЕНА УСПЕШНО!")
 
     except Exception as e:
-        print(f"\n❌ ОШИБКА: {e}")
+        print(f"\n ошибка: {e}")
         import traceback
         traceback.print_exc()
 

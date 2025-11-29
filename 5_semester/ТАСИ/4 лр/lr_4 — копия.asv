@@ -1,0 +1,75 @@
+clc; clear; close all;
+
+% Данные
+x = [0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8 3.0];
+y = [-0.13 -0.97 -1.52 -1.97 -2.35 -3.16 -3.95 -4.87 -5.33 -5.94 -6.45 -7.28 -7.84 -8.75 -9.34 -10.1];
+
+% Массив для интерполированной функции
+x_interp = linspace(min(x), max(x), 200);
+y_interp = zeros(size(x_interp));
+
+% Для каждого интервала ищем a_i и b_i и вычисляем y
+for i = 2:length(x)
+    a(i) = (y(i) - y(i-1)) / (x(i) - x(i-1));
+    b(i) = y(i-1) - a(i) * x(i-1);
+end
+
+for j = 1:length(x_interp)
+    % ищем, в какой интервал попадает x_interp(j)
+    for i = 2:length(x)
+        if x_interp(j) >= x(i-1) && x_interp(j) <= x(i)
+            y_interp(j) = a(i) * x_interp(j) + b(i);
+            break
+        end
+    end
+end
+writematrix([x_interp' y_interp'], 'interpolation_data.xlsx', 'Sheet', 1, 'Range', 'A1');
+
+% Аппроксимация
+
+
+n = length(x);
+
+% Суммы степеней
+S0 = n;
+S1 = sum(x);
+S2 = sum(x.^2);
+S3 = sum(x.^3);
+S4 = sum(x.^4);
+S5 = sum(x.^5);
+S6 = sum(x.^6);
+
+T0 = sum(y);
+T1 = sum(x .* y);
+T2 = sum(x.^2 .* y);
+T3 = sum(x.^3 .* y);
+
+% Матрица и правая часть
+M = [S0 S1 S2 S3;
+     S1 S2 S3 S4;
+     S2 S3 S4 S5;
+     S3 S4 S5 S6];
+
+R = [T0; T1; T2; T3];
+
+% Решение системы 
+P = M\R;  % [A; B; C; D]
+
+A = P(4); B = P(3); C = P(2); D = P(1);
+
+% Построение аппроксимирующей кривой
+y_approx = A*x.^3 + B*x.^2 + C*x + D;
+
+% Ошибка аппроксимации
+E = sqrt(sum((y_approx - y).^2) / (n + 1));
+E_rel = E / mean(abs(y));
+
+% Графики 
+figure;
+plot(x, y, 'go', 'MarkerFaceColor', 'g', 'DisplayName', 'Исходные данные'); hold on;
+plot(x_interp, y_interp, 'b--', 'LineWidth', 1.5, 'DisplayName', 'Интерполяция');
+plot(x, y_approx, 'r-', 'LineWidth', 2, 'DisplayName', 'Аппроксимация (3 степень)');
+legend('Location','best');
+xlabel('x'); ylabel('y');
+title(sprintf('Интерполяция и аппроксимация. Ошибка E = %.4f', E_rel));
+grid on;
