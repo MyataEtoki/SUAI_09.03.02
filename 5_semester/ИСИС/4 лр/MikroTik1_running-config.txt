@@ -1,0 +1,149 @@
+!
+version 15.4
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname MicroTik1
+!
+!
+!
+!
+ip dhcp excluded-address 10.0.10.1 10.0.10.50
+ip dhcp excluded-address 10.0.10.100 10.0.10.254
+ip dhcp excluded-address 10.0.20.100 10.0.20.254
+ip dhcp excluded-address 10.0.20.1 10.0.20.50
+ip dhcp excluded-address 10.0.30.1 10.0.30.50
+ip dhcp excluded-address 10.0.30.100 10.0.30.254
+ip dhcp excluded-address 10.0.40.1 10.0.40.50
+ip dhcp excluded-address 10.0.40.100 10.0.40.254
+ip dhcp excluded-address 10.0.50.1 10.0.50.50
+ip dhcp excluded-address 10.0.50.100 10.0.50.254
+ip dhcp excluded-address 10.0.60.1 10.0.60.50
+ip dhcp excluded-address 10.0.60.100 10.0.60.254
+!
+ip dhcp pool VLAN-10
+ network 10.0.10.0 255.255.255.0
+ default-router 10.0.10.254
+ dns-server 192.168.100.2
+ip dhcp pool VLAN-20
+ network 10.0.20.0 255.255.255.0
+ default-router 10.0.20.254
+ dns-server 192.168.100.2
+ip dhcp pool VLAN-30
+ network 10.0.30.0 255.255.255.0
+ default-router 10.0.30.1
+ dns-server 192.168.100.2
+ip dhcp pool VLAN-40
+ network 10.0.40.0 255.255.255.0
+ default-router 10.0.40.254
+ dns-server 192.168.100.2
+ip dhcp pool VLAN-50
+ network 10.0.50.0 255.255.255.0
+ default-router 10.0.50.1
+ dns-server 192.168.100.2
+ip dhcp pool VLAN-60
+ network 10.0.60.0 255.255.255.0
+ default-router 10.0.60.1
+ dns-server 192.168.100.2
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/0/0.10
+ encapsulation dot1Q 10
+ ip address 10.0.10.254 255.255.255.0
+ ip helper-address 192.168.100.2
+!
+interface GigabitEthernet0/0/0.20
+ encapsulation dot1Q 20
+ ip address 10.0.20.254 255.255.255.0
+ ip helper-address 192.168.100.2
+!
+interface GigabitEthernet0/0/0.30
+ encapsulation dot1Q 30
+ ip address 10.0.30.254 255.255.255.0
+ ip helper-address 192.168.100.2
+!
+interface GigabitEthernet0/0/0.40
+ encapsulation dot1Q 40
+ ip address 10.0.40.254 255.255.255.0
+ ip helper-address 192.168.100.2
+!
+interface GigabitEthernet0/0/0.50
+ encapsulation dot1Q 50
+ ip address 10.0.50.254 255.255.255.0
+!
+interface GigabitEthernet0/0/0.100
+ encapsulation dot1Q 100
+ ip address 192.168.100.2 255.255.255.0
+ ip helper-address 192.168.100.2
+!
+interface GigabitEthernet0/0/1
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface GigabitEthernet0/0/1.100
+ encapsulation dot1Q 100
+ no ip address
+!
+interface GigabitEthernet0/0/2
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router rip
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+

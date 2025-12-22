@@ -99,7 +99,7 @@ if __name__ == "__main__":
     np.set_printoptions(precision=2, suppress=True, linewidth=120)
 
     # step 1
-    r, g, b = get_rgb(create_color_shift_table(r"ТехникаАудиовизуальных\data\Lab_5_data\test1.png"))
+    r, g, b = get_rgb(create_color_shift_table(r"img5.png"))
 
     # step2
     y, u, v = rgb_to_yuv(r, g, b)

@@ -1,0 +1,53 @@
+!
+version 12.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Switch3
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface Ethernet0/1
+ description Switch 2
+ switchport access vlan 10
+ switchport mode trunk
+!
+interface Ethernet1/1
+ description Switch 3
+ switchport mode trunk
+!
+interface Ethernet2/1
+ description PC4
+ switchport access vlan 30
+ switchport mode access
+!
+interface Ethernet3/1
+ description Router
+ switchport mode trunk
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+!
+!
+!
+line con 0
+!
+line vty 0 4
+ login
+line vty 5 15
+ login
+!
+!
+!
+!
+end
+
