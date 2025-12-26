@@ -19,8 +19,8 @@ def write_frames_info(all_frames_path: str, i_frames_info_path: str, p_frames_in
 
 
 if __name__ == "__main__":
-    all_frames_path = r"Lab_8\data\frames_info.txt"
-    i_frames_info_path = r"Lab_8\data\i_frames_info.txt"
-    p_frames_info_path = r"Lab_8\data\p_frames_info.txt"
+    all_frames_path = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\data1\frames_info.txt"
+    i_frames_info_path = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\data1\i_frames_info.txt"
+    p_frames_info_path = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\data1\p_frames_info.txt"
 
     write_frames_info(all_frames_path, i_frames_info_path, p_frames_info_path)

@@ -67,7 +67,7 @@ def extract_max_diff_frames(video_path, output_dir="output_frames"):
 
 
 if __name__ == "__main__":
-    video_file = r"Lab_8\data\usa_video.mp4"  # путь к mp4 файлу
+    video_file = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\Футаж_PIXEL_light_and_sun.mp4"  # путь к mp4 файлу
     result = extract_max_diff_frames(video_file)
     print("Сохранены кадры с максимальной разностью:")
     for k, v in result.items():

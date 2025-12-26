@@ -1,0 +1,7 @@
+pict_type=I: pts_time=0.000000
+pict_type=I: pts_time=1.001000
+pict_type=I: pts_time=2.002000
+pict_type=I: pts_time=3.003000
+pict_type=I: pts_time=4.004000
+pict_type=I: pts_time=5.005000
+pict_type=I: pts_time=6.006000

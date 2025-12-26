@@ -35,6 +35,6 @@ def get_mp4_info(path: str) -> None:
 
 
 # Пример вызова
-video_path = r"C:\Users\opari\OneDrive\Рабочий стол\5_semestr_programming\Lab_8\data\usa_video.mp4"
+video_path = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\Футаж_PIXEL_light_and_sun.mp4"
 print()
 get_mp4_info(video_path)

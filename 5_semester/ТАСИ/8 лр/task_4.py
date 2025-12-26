@@ -47,7 +47,7 @@ def show_graph():
     import matplotlib.pyplot as plt
 
     with open(
-        r"C:\Users\opari\OneDrive\Рабочий стол\5_semestr_programming\Lab_8\data\frame_diff.txt", "r", encoding="utf8"
+        r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\data1\frame_diff.txt", "r", encoding="utf8"
     ) as txt_file:
         data = list(map(float, txt_file))
         t = range(len(data))
@@ -61,8 +61,8 @@ def show_graph():
 
 
 if __name__ == "__main__":
-    video_path = r"D:\video.mp4"
-    output_path = r"C:\Users\opari\OneDrive\Рабочий стол\5_semestr_programming\Lab_8\data\frame_diff.txt"
+    video_path = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\Футаж_PIXEL_light_and_sun.mp4"
+    output_path = r"C:\Users\etoki\Documents\SUAI_09.03.02\5_semester\ТАСИ\8 лр\data1\frame_diff.txt"
 
     # print()
     # with open(output_path, "r", encoding="utf8") as txt_file:
