@@ -4,10 +4,10 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1440,900
-MCAPVersion=12.0.2.1
+Screen=1280,800
+MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=147
+NLCnt=146
 TXCnt=4
 
 [shapedef]
@@ -150,8 +150,8 @@ Line=48,4,52,4
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6401
-Used=187
+Mask=6657
+Used=72
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -162,8 +162,8 @@ Pin="Minus",0,0,-10,-5
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=769
-Used=431
+Mask=513
+Used=311
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -174,7 +174,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6145
-Used=299
+Used=199
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -186,7 +186,6 @@ Name=And2
 Definition=AND
 Shape=And2
 Mask=4867
-Used=7
 Data1=2
 memo=2 Input Generic AND Gate
 Label Offset=12,21,8,8
@@ -200,7 +199,6 @@ Name=DClock
 Definition=Macro
 Shape=StimClock
 Mask=4096
-Used=3
 memo=Digital Clock Stimulus Macro
 Link=http://www.spectrum-soft.com/news/fall2003/dclock.shtm
 Label Offset=29,10,12,21
@@ -211,8 +209,8 @@ Pin="Out",d,9,0
 Name=Opamp
 Definition=Opamp
 Shape=Opamp5
-Mask=4609
-Used=12
+Mask=5121
+Used=4
 memo=Opamp
 Label Offset=44,29,-14,39
 PinCnt=5
@@ -226,8 +224,8 @@ Pin="VCC",4,-1,5,14
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=6657
-Used=31
+Mask=6401
+Used=32
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -239,7 +237,6 @@ Name=7493A
 Definition=Subckt
 Shape=92
 Mask=20608
-Used=2
 memo=Binary Counters
 Label Offset=18,72,-5,16
 PinCnt=8
@@ -257,7 +254,6 @@ Name=Comp_6
 Definition=Subckt
 Shape=Comp6
 Mask=20480
-Used=7
 memo=Generic 6-Pin Comparator Subcircuit Template
 Label Offset=29,-15,-5,24
 PinCnt=6
@@ -269,7 +265,7 @@ Pin="5",a,7,2,-9,-1
 Pin="6",a,7,5,-10,14
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 78,78,1070,482
+Window Placement=2,3, -1,-1, -8,-31, 633,296,1266,592
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -281,9 +277,6 @@ PowerFormat=3
 PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
-Window Placement in Transient Analysis=0,1, -1,-1, -8,-31, 0,0,715,495
-Window Placement in AC Analysis=2,3, -1,-1, -8,-31, 130,130,1353,583
-Window Placement in DC Analysis=2,3, -1,-1, -8,-31, 104,104,1327,557
 SpiceType=AMBIGUOUS
 Title_Block_Border=None
 Title_Block=False
@@ -370,18 +363,9 @@ Name=Ground
 Px=112,192
 Rot=1
 
-[Wire]
-Pxs=112,120,192,120
-
-[Wire]
-Pxs=192,120,192,136
-
-[Wire]
-Pxs=192,136,240,136
-
 [Comp]
 Name=And2
-Px=240,136
+Px=304,136
 
 [Attr]
 ON=-25,-22,PART
@@ -417,7 +401,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=168,152,240,152
+Pxs=168,152,304,152
 
 [Comp]
 Name=DClock
@@ -654,9 +638,6 @@ Pxs=440,456,440,512
 Pxs=440,456,568,456
 
 [Wire]
-Pxs=288,144,352,144
-
-[Wire]
 Pxs=352,128,352,144
 
 [Wire]
@@ -745,11 +726,11 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=656,456,784,456
+Pxs=568,456,592,456
 
 [Comp]
 Name=Resistor
-Px=784,456
+Px=712,456
 Rot=1
 
 [Attr]
@@ -767,16 +748,16 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=784,456,832,456
+Pxs=712,456,760,456
 
 [Comp]
 Name=Ground
-Px=784,504
+Px=712,504
 Rot=7
 
 [Comp]
 Name=Capacitor
-Px=832,456
+Px=760,456
 Rot=1
 
 [Attr]
@@ -794,10 +775,10 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=832,456,920,456
+Pxs=760,456,920,456
 
 [Wire]
-Pxs=784,504,832,504
+Pxs=712,504,760,504
 
 [Comp]
 Name=Resistor
@@ -921,16 +902,10 @@ Pxs=408,248,800,248
 Pxs=408,176,432,176
 
 [Wire]
-Pxs=408,176,408,248
-
-[Wire]
 Pxs=520,128,568,128
 
 [Wire]
 Pxs=576,32,576,72
-
-[Wire]
-Pxs=576,32,1048,32
 
 [Wire]
 Pxs=576,72,576,128
@@ -942,9 +917,6 @@ Pxs=520,144,592,144
 Pxs=600,48,600,144
 
 [Wire]
-Pxs=600,48,1048,48
-
-[Wire]
 Pxs=520,160,624,160
 
 [Wire]
@@ -952,9 +924,6 @@ Pxs=624,64,624,160
 
 [Wire]
 Pxs=520,176,656,176
-
-[Wire]
-Pxs=568,456,592,456
 
 [Wire]
 Pxs=592,144,592,408
@@ -966,16 +935,10 @@ Pxs=592,144,600,144
 Pxs=624,160,624,408
 
 [Wire]
-Pxs=624,64,1056,64
-
-[Wire]
 Pxs=656,176,656,408
 
 [Wire]
 Pxs=656,80,656,128
-
-[Wire]
-Pxs=656,80,1056,80
 
 [Comp]
 Name=7493A
@@ -1310,12 +1273,6 @@ Pxs=344,344,352,344
 Pxs=344,328,344,344
 
 [Wire]
-Pxs=400,248,400,336
-
-[Wire]
-Pxs=400,248,408,248
-
-[Wire]
 Pxs=288,272,344,272
 
 [Wire]
@@ -1371,6 +1328,39 @@ Pxs=568,128,576,128
 
 [Wire]
 Pxs=656,128,656,176
+
+[Wire]
+Pxs=656,456,712,456
+
+[Wire]
+Pxs=112,120,168,120
+
+[Wire]
+Pxs=168,120,168,136
+
+[Wire]
+Pxs=168,136,304,136
+
+[Wire]
+Pxs=400,336,408,336
+
+[Wire]
+Pxs=408,176,408,248
+
+[Wire]
+Pxs=408,248,408,336
+
+[Wire]
+Pxs=576,32,752,32
+
+[Wire]
+Pxs=600,48,752,48
+
+[Wire]
+Pxs=624,64,752,64
+
+[Wire]
+Pxs=656,80,752,80
 
 [Grid Text]
 Text="VC"
@@ -1603,7 +1593,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=658,82
+Px=832,40
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1791,7 +1781,6 @@ SimulationLog=True
 
 [Transient]
 WinID=1
-Window Placement=0,1, -1,-1, -8,-31, 715,0,1430,661
 Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1856,13 +1845,6 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=367
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
@@ -2017,7 +1999,6 @@ Name="MAIN"
 
 [AC]
 WinID=2
-Window Placement=2,3, -1,-1, -8,-31, 130,130,1353,583
 Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -2075,13 +2056,6 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=260
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
@@ -2233,7 +2207,6 @@ ALIGNBOTTOM=No
 
 [DC]
 WinID=3
-Window Placement=2,3, -1,-1, -8,-31, 104,104,1327,557
 Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -2287,13 +2260,6 @@ Data Point Labels Color Back=#FFFF00
 AutoScaleRanges=True
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=286
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
@@ -2751,7 +2717,6 @@ Analysis=Transient
 Format=3
 ExprPercentWidth=80
 ShowWin=True
-Window Placement=0,1, -1,-1, -1,-1, 0,495,715,660
 
 [Watch]
 Analysis=AC

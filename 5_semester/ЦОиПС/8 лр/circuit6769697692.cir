@@ -4,10 +4,10 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1440,900
-MCAPVersion=12.0.2.1
+Screen=1280,800
+MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=27
+NLCnt=29
 TXCnt=0
 
 [shapedef]
@@ -77,7 +77,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6145
-Used=299
+Used=199
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -88,8 +88,8 @@ Pin="Minus",0,0,-14,-4
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=769
-Used=431
+Mask=513
+Used=311
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -99,8 +99,8 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6401
-Used=187
+Mask=6657
+Used=72
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -111,8 +111,8 @@ Pin="Minus",0,0,-10,-5
 Name=Opamp
 Definition=Opamp
 Shape=Opamp5
-Mask=4609
-Used=12
+Mask=5121
+Used=4
 memo=Opamp
 Label Offset=44,29,-14,39
 PinCnt=5
@@ -123,7 +123,7 @@ Pin="Output",9,3,-13,-4
 Pin="VCC",4,-1,5,14
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 78,78,1070,482
+Window Placement=2,3, -1,-1, -8,-31, 633,0,1266,296
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -135,7 +135,6 @@ PowerFormat=3
 PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
-Window Placement in DC Analysis=2,3, -1,-1, -8,-31, 104,104,1353,508
 SpiceType=AMBIGUOUS
 Title_Block_Border=None
 Title_Block=False
@@ -152,7 +151,7 @@ Show Grid Text=True
 
 [Comp]
 Name=Resistor
-Px=200,144
+Px=280,144
 
 [Attr]
 ON=18,6,PART
@@ -170,7 +169,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=200,224
+Px=280,224
 
 [Attr]
 ON=18,6,PART
@@ -188,7 +187,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=200,304
+Px=280,304
 
 [Attr]
 ON=18,6,PART
@@ -206,7 +205,7 @@ V
 
 [Comp]
 Name=Resistor
-Px=200,376
+Px=280,376
 
 [Attr]
 ON=18,6,PART
@@ -224,12 +223,12 @@ V
 
 [Comp]
 Name=Ground
-Px=152,376
+Px=232,376
 Rot=2
 
 [Comp]
 Name=Battery
-Px=152,376
+Px=232,376
 
 [Attr]
 ON=19,7,PART
@@ -246,20 +245,17 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=248,304,248,376
+Pxs=328,304,328,376
 
 [Wire]
-Pxs=248,224,248,304
+Pxs=328,224,328,304
 
 [Wire]
-Pxs=248,144,248,224
-
-[Wire]
-Pxs=248,144,376,144
+Pxs=328,144,328,224
 
 [Comp]
 Name=Opamp
-Px=376,144
+Px=384,240
 
 [Attr]
 ON=44,29,PART
@@ -276,7 +272,7 @@ V=TO-5C_8
 
 [Comp]
 Name=Battery
-Px=408,88
+Px=416,184
 Rot=1
 
 [Attr]
@@ -295,7 +291,7 @@ V
 
 [Comp]
 Name=Battery
-Px=408,200
+Px=416,296
 Rot=1
 
 [Attr]
@@ -314,40 +310,22 @@ V
 
 [Comp]
 Name=Ground
-Px=408,88
+Px=416,184
 Rot=3
 
 [Comp]
 Name=Ground
-Px=408,248
+Px=416,344
 Rot=1
-
-[Wire]
-Pxs=448,168,488,168
-
-[Wire]
-Pxs=488,168,488,288
-
-[Wire]
-Pxs=488,168,536,168
-
-[Wire]
-Pxs=336,288,488,288
-
-[Wire]
-Pxs=336,192,336,288
-
-[Wire]
-Pxs=336,192,376,192
 
 [Comp]
 Name=Ground
-Px=152,304
+Px=232,304
 Rot=2
 
 [Comp]
 Name=Battery
-Px=152,304
+Px=232,304
 
 [Attr]
 ON=19,7,PART
@@ -365,12 +343,12 @@ V
 
 [Comp]
 Name=Ground
-Px=152,224
+Px=232,224
 Rot=2
 
 [Comp]
 Name=Battery
-Px=152,224
+Px=232,224
 
 [Attr]
 ON=19,7,PART
@@ -388,12 +366,12 @@ V
 
 [Comp]
 Name=Ground
-Px=152,144
+Px=232,144
 Rot=2
 
 [Comp]
 Name=Battery
-Px=152,144
+Px=232,144
 
 [Attr]
 ON=19,7,PART
@@ -408,6 +386,33 @@ Style=8192
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Wire]
+Pxs=376,144,376,240
+
+[Wire]
+Pxs=376,240,384,240
+
+[Wire]
+Pxs=456,264,504,264
+
+[Wire]
+Pxs=504,264,504,376
+
+[Wire]
+Pxs=504,264,528,264
+
+[Wire]
+Pxs=376,288,376,376
+
+[Wire]
+Pxs=376,288,384,288
+
+[Wire]
+Pxs=376,376,504,376
+
+[Wire]
+Pxs=328,144,376,144
 
 [Schematic]
 CurrentSection 0=0
@@ -606,7 +611,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=177,221
+Px=509,123
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -739,7 +744,6 @@ SimulationLog=True
 
 [DC]
 WinID=3
-Window Placement=2,3, -1,-1, -8,-31, 104,104,1353,508
 Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -793,13 +797,6 @@ Data Point Labels Color Back=#FFFF00
 AutoScaleRanges=True
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=286
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0

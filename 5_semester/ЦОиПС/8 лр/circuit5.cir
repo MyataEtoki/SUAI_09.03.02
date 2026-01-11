@@ -4,10 +4,10 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1440,900
-MCAPVersion=12.0.2.1
+Screen=1280,800
+MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=101
+NLCnt=102
 TXCnt=2
 
 [shapedef]
@@ -123,7 +123,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6145
-Used=299
+Used=199
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -134,8 +134,8 @@ Pin="Minus",0,0,-14,-4
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=769
-Used=431
+Mask=513
+Used=311
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -145,8 +145,8 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6401
-Used=187
+Mask=6657
+Used=72
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -158,7 +158,6 @@ Name=Inverter
 Definition=INV
 Shape=Inv
 Mask=4611
-Used=6
 Data1=1
 memo=Generic Inverter Gate
 Label Offset=12,-6,11,21
@@ -171,7 +170,6 @@ Name=And2
 Definition=AND
 Shape=And2
 Mask=4867
-Used=7
 Data1=2
 memo=2 Input Generic AND Gate
 Label Offset=12,21,8,8
@@ -185,7 +183,6 @@ Name=Or2
 Definition=OR
 Shape=Or2
 Mask=4099
-Used=2
 Data1=2
 memo=2 Input Generic OR Gate
 Label Offset=15,4,7,10
@@ -199,7 +196,6 @@ Name=Comp_6
 Definition=Subckt
 Shape=Comp6
 Mask=20480
-Used=7
 memo=Generic 6-Pin Comparator Subcircuit Template
 Label Offset=29,-15,-5,24
 PinCnt=6
@@ -211,7 +207,7 @@ Pin="5",a,7,2,-9,-1
 Pin="6",a,7,5,-10,14
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 78,78,1070,482
+Window Placement=2,3, -1,-1, -8,-31, 0,0,633,296
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -223,7 +219,6 @@ PowerFormat=3
 PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
-Window Placement in Transient Analysis=2,3, -1,-1, -8,-31, 26,26,1249,479
 SpiceType=AMBIGUOUS
 Title_Block_Border=None
 Title_Block=False
@@ -237,9 +232,6 @@ Show Connection Warnings=False
 Show Cross=False
 Show Attribute Text=True
 Show Grid Text=True
-
-[Wire]
-Pxs=104,32,224,32
 
 [Comp]
 Name=Resistor
@@ -517,12 +509,6 @@ Px=528,144
 Rot=1
 
 [Wire]
-Pxs=600,96,600,184
-
-[Wire]
-Pxs=600,96,800,96
-
-[Wire]
 Pxs=144,120,144,184
 
 [Comp]
@@ -650,9 +636,6 @@ Px=528,328
 Rot=1
 
 [Wire]
-Pxs=600,280,600,376
-
-[Wire]
 Pxs=144,280,144,344
 
 [Comp]
@@ -773,12 +756,9 @@ Name=Ground
 Px=528,512
 Rot=1
 
-[Wire]
-Pxs=640,376,640,448
-
 [Comp]
 Name=Inverter
-Px=640,264
+Px=640,168
 
 [Attr]
 ON=9,-32,PART
@@ -813,15 +793,9 @@ V=$G_DGND
 ON=0,0,PACKAGE
 V
 
-[Wire]
-Pxs=640,184,640,264
-
-[Wire]
-Pxs=688,264,720,264
-
 [Comp]
 Name=Inverter
-Px=640,448
+Px=640,376
 
 [Attr]
 ON=11,-36,PART
@@ -861,10 +835,10 @@ Pxs=688,448,720,448
 
 [Comp]
 Name=And2
-Px=720,264
+Px=720,216
 
 [Attr]
-ON=-25,-22,PART
+ON=14,0,PART
 V=U3
 Style=8192
 
@@ -901,7 +875,7 @@ Name=And2
 Px=720,448
 
 [Attr]
-ON=-25,-22,PART
+ON=15,0,PART
 V=U4
 Style=8192
 
@@ -934,32 +908,17 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=800,96,800,256
+Pxs=800,96,800,168
 
 [Wire]
-Pxs=768,272,848,272
-
-[Wire]
-Pxs=800,256,848,256
-
-[Wire]
-Pxs=800,256,800,360
+Pxs=800,168,800,360
 
 [Wire]
 Pxs=800,360,848,360
 
-[Wire]
-Pxs=768,456,816,456
-
-[Wire]
-Pxs=816,376,816,456
-
-[Wire]
-Pxs=816,376,848,376
-
 [Comp]
 Name=Or2
-Px=848,256
+Px=848,168
 
 [Attr]
 ON=15,4,PART
@@ -1032,14 +991,11 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=896,264,920,264
-
-[Wire]
 Pxs=896,368,920,368
 
 [Comp]
 Name=Battery
-Px=56,32
+Px=176,32
 
 [Attr]
 ON=47,-15,PART
@@ -1057,7 +1013,7 @@ V
 
 [Comp]
 Name=Ground
-Px=56,32
+Px=176,32
 Rot=2
 
 [Comp]
@@ -1127,9 +1083,6 @@ Pxs=408,536,408,544
 Pxs=528,464,720,464
 
 [Wire]
-Pxs=600,280,720,280
-
-[Wire]
 Pxs=224,256,224,440
 
 [Wire]
@@ -1157,10 +1110,55 @@ Pxs=224,440,336,440
 Pxs=328,304,336,304
 
 [Wire]
-Pxs=600,184,640,184
+Pxs=600,96,600,168
+
+[Wire]
+Pxs=600,168,640,168
+
+[Wire]
+Pxs=600,96,800,96
+
+[Wire]
+Pxs=600,280,600,376
 
 [Wire]
 Pxs=600,376,640,376
+
+[Wire]
+Pxs=688,376,688,448
+
+[Wire]
+Pxs=800,168,848,168
+
+[Wire]
+Pxs=848,184,848,224
+
+[Wire]
+Pxs=896,176,912,176
+
+[Wire]
+Pxs=768,456,848,456
+
+[Wire]
+Pxs=848,376,848,456
+
+[Wire]
+Pxs=600,280,664,280
+
+[Wire]
+Pxs=664,232,664,280
+
+[Wire]
+Pxs=664,232,720,232
+
+[Wire]
+Pxs=768,224,848,224
+
+[Wire]
+Pxs=688,168,688,216
+
+[Wire]
+Pxs=688,216,720,216
 
 [Grid Text]
 Text="VC"
@@ -1377,7 +1375,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=922,485
+Px=94,26
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1563,7 +1561,6 @@ SimulationLog=True
 
 [Transient]
 WinID=1
-Window Placement=2,3, -1,-1, -8,-31, 26,26,1249,479
 Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1628,13 +1625,6 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=367
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
@@ -1843,7 +1833,7 @@ Margin Line=True
 Margin Line Color=#0000FF
 Margin Line Pattern=Dot6
 Margin Line Weight=2
-Margin Text=True
+Margin Text=False
 Margin Arrow=True
 Margin Arrow Color=#FF0000
 Margin Arrow Weight=2

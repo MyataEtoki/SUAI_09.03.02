@@ -4,8 +4,8 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1440,900
-MCAPVersion=12.0.2.1
+Screen=1280,800
+MCAPVersion=12.2.0.5
 Key ID=Demo
 NLCnt=39
 TXCnt=0
@@ -77,7 +77,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6145
-Used=299
+Used=199
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -88,8 +88,8 @@ Pin="Minus",0,0,-14,-4
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=769
-Used=431
+Mask=513
+Used=311
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -99,8 +99,8 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6401
-Used=187
+Mask=6657
+Used=72
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -111,8 +111,8 @@ Pin="Minus",0,0,-10,-5
 Name=Opamp
 Definition=Opamp
 Shape=Opamp5
-Mask=4609
-Used=12
+Mask=5121
+Used=4
 memo=Opamp
 Label Offset=44,29,-14,39
 PinCnt=5
@@ -123,7 +123,7 @@ Pin="Output",9,3,-13,-4
 Pin="VCC",4,-1,5,14
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 78,78,1070,482
+Window Placement=2,3, -1,-1, -8,-31, 0,296,633,592
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -315,7 +315,7 @@ V
 
 [Comp]
 Name=Opamp
-Px=552,160
+Px=536,256
 
 [Attr]
 ON=44,29,PART
@@ -332,7 +332,7 @@ V=TO-5C_8
 
 [Comp]
 Name=Battery
-Px=584,104
+Px=568,200
 Rot=1
 
 [Attr]
@@ -351,7 +351,7 @@ V
 
 [Comp]
 Name=Battery
-Px=584,216
+Px=568,312
 Rot=1
 
 [Attr]
@@ -370,31 +370,13 @@ V
 
 [Comp]
 Name=Ground
-Px=584,104
+Px=568,200
 Rot=3
 
 [Comp]
 Name=Ground
-Px=584,264
+Px=568,360
 Rot=1
-
-[Wire]
-Pxs=624,184,664,184
-
-[Wire]
-Pxs=664,184,664,304
-
-[Wire]
-Pxs=664,184,712,184
-
-[Wire]
-Pxs=512,304,664,304
-
-[Wire]
-Pxs=512,208,512,304
-
-[Wire]
-Pxs=512,208,552,208
 
 [Comp]
 Name=Resistor
@@ -518,13 +500,31 @@ Rot=4
 Pxs=424,120,424,160
 
 [Wire]
-Pxs=424,120,512,120
+Pxs=424,120,520,120
 
 [Wire]
-Pxs=512,120,512,160
+Pxs=520,304,536,304
 
 [Wire]
-Pxs=512,160,552,160
+Pxs=520,304,520,392
+
+[Wire]
+Pxs=520,392,632,392
+
+[Wire]
+Pxs=608,280,632,280
+
+[Wire]
+Pxs=632,280,632,392
+
+[Wire]
+Pxs=632,280,664,280
+
+[Wire]
+Pxs=520,120,520,256
+
+[Wire]
+Pxs=520,256,536,256
 
 [Schematic]
 CurrentSection 0=0
@@ -723,7 +723,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=345,159
+Px=661,187
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
