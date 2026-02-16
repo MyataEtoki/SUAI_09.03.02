@@ -1,0 +1,436 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.4.0">
+  <diagram name="Страница-1" id="Z0iHOTA084WFaSEIoHBP">
+    <mxGraphModel dx="1796" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j5a0hRMLbcRMh55_iER_-14" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-15" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="j5a0hRMLbcRMh55_iER_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-16" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-17" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-18" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-19" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-20" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-21" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-22" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="комнадир батальона" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-23" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-24" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-27" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-28" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="управление" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-34" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="260" />
+              <mxPoint x="160" y="260" />
+              <mxPoint x="160" y="350" />
+              <mxPoint x="90" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-35" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="260" />
+              <mxPoint x="160" y="260" />
+              <mxPoint x="160" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-36" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-37" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="290" />
+              <mxPoint x="260" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-38" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="290" />
+              <mxPoint x="290" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="штаб" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-76" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-86" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="210" />
+              <mxPoint x="320" y="470" />
+              <mxPoint x="455" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-87" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="210" />
+              <mxPoint x="320" y="505" />
+              <mxPoint x="360" y="505" />
+              <mxPoint x="360" y="740" />
+              <mxPoint x="320" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3 мотострелковые роты" vertex="1">
+          <mxGeometry height="30" width="120" x="240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="взвод связи" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-44" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-45" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="минометная батарея" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-49" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-51" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="противотанковый взвод" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-54" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="320" />
+              <mxPoint x="782" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-56" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-58" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отделение технического обслуживания" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-60" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-62" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="400" />
+              <mxPoint x="905" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-64" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-66" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="400" />
+              <mxPoint x="985" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="взвод снабжения&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="800" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-68" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-72" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-73" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="батальонный медицинский пункт" vertex="1">
+          <mxGeometry height="40" width="60" x="900" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="комбат" vertex="1">
+          <mxGeometry height="30" width="60" x="-180" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="заместитель по политической части" vertex="1">
+          <mxGeometry height="50" width="100" x="50" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="заместитель по технической части&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="90" x="-50" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="техник батальона" vertex="1">
+          <mxGeometry height="30" width="60" x="-120" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="начальник штаба" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-40" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="начальник связи" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="инструктор-дозиметрист" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="писарь" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="водитель бронетранспортера" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="взвод связи (еще 12 чел.)" vertex="1">
+          <mxGeometry height="30" width="110" x="105" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="управления (10 чел.)" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-47" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="j5a0hRMLbcRMh55_iER_-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-43" parent="1" style="text;whiteSpace=wrap;" value="двух взводов по 20 чел" vertex="1">
+          <mxGeometry height="40" width="160" x="450" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-46" parent="1" style="text;whiteSpace=wrap;" value="по 3 120-мм миномета" vertex="1">
+          <mxGeometry height="40" width="160" x="400" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-48" parent="1" style="text;whiteSpace=wrap;" value="отделения станковых противотанковых гранатометов (8 чел., 2 гранатомета СПГ-9)" vertex="1">
+          <mxGeometry height="75" width="150" x="590" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-50" parent="1" style="text;whiteSpace=wrap;" value="двух отделений противотанковых управляемых ракет (по 6 чел. и по 2 ПТУРС в отделении)" vertex="1">
+          <mxGeometry height="90" width="130" x="520" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-52" parent="1" style="text;whiteSpace=wrap;" value="командир отделения" vertex="1">
+          <mxGeometry height="40" width="90" x="737" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-55" parent="1" style="text;whiteSpace=wrap;" value="водитель-автослесарь" vertex="1">
+          <mxGeometry height="40" width="80" x="740" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-57" parent="1" style="text;whiteSpace=wrap;" value="старший механик" vertex="1">
+          <mxGeometry height="40" width="57.5" x="701.25" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-59" parent="1" style="text;whiteSpace=wrap;" value="командир взвода" vertex="1">
+          <mxGeometry height="40" width="65" x="797.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-61" parent="1" style="text;whiteSpace=wrap;" value="заместитель командира взвода" vertex="1">
+          <mxGeometry height="40" width="70" x="870" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-63" parent="1" style="text;whiteSpace=wrap;" value="хозяйственная часть (3 чел.)" vertex="1">
+          <mxGeometry height="40" width="90" x="850" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-65" parent="1" style="text;whiteSpace=wrap;" value="автотранспортное отделение (4 чел.)." vertex="1">
+          <mxGeometry height="40" width="110" x="930" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-67" parent="1" style="text;whiteSpace=wrap;" value="начальник пункта" vertex="1">
+          <mxGeometry height="40" width="130" x="950" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-70" parent="1" style="text;whiteSpace=wrap;" value="шофер-санитар" vertex="1">
+          <mxGeometry height="40" width="120" x="1060" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-71" parent="1" style="text;whiteSpace=wrap;" value="2 санитара" vertex="1">
+          <mxGeometry height="40" width="100" x="1160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-80" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="j5a0hRMLbcRMh55_iER_-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-81" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="j5a0hRMLbcRMh55_iER_-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-82" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-75" parent="1" style="text;whiteSpace=wrap;" value="управления" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-77" parent="1" style="text;whiteSpace=wrap;" value="командир роты" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-78" parent="1" style="text;whiteSpace=wrap;" value="заместитель по политической части" vertex="1">
+          <mxGeometry height="40" width="120" x="100" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-79" parent="1" style="text;whiteSpace=wrap;" value="старшина роты" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-93" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-94" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-95" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-84" parent="1" style="text;whiteSpace=wrap;" value="пулеметного отделения" vertex="1">
+          <mxGeometry height="30" width="170" x="370" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-105" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-106" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-107" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-85" parent="1" style="text;whiteSpace=wrap;" value="3 мотострелковых взводов" vertex="1">
+          <mxGeometry height="30" width="180" x="230" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-88" parent="1" style="text;whiteSpace=wrap;" value="командира отделения" vertex="1">
+          <mxGeometry height="40" width="160" x="480" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-89" parent="1" style="text;whiteSpace=wrap;" value="водителя бронетранспортера" vertex="1">
+          <mxGeometry height="40" width="200" x="480" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-98" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-99" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-90" parent="1" style="text;whiteSpace=wrap;" value="двух пулеметных расчетов" vertex="1">
+          <mxGeometry height="40" width="190" x="480" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-96" parent="1" style="text;whiteSpace=wrap;" value="пулеметчик" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-97" parent="1" style="text;whiteSpace=wrap;" value="помощник пулеметчика" vertex="1">
+          <mxGeometry height="40" width="160" x="570" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-101" parent="1" style="text;whiteSpace=wrap;" value="командира взвода" vertex="1">
+          <mxGeometry height="40" width="110" x="130" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-102" parent="1" style="text;whiteSpace=wrap;" value="заместителя командира" vertex="1">
+          <mxGeometry height="40" width="150" x="90" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-117" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="45" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-118" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="165" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-119" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="270" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-120" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="425" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-121" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="100" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-122" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="215" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-123" edge="1" parent="1" source="j5a0hRMLbcRMh55_iER_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j5a0hRMLbcRMh55_iER_-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="930" />
+              <mxPoint x="320" y="930" />
+              <mxPoint x="320" y="1030" />
+              <mxPoint x="380" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-103" parent="1" style="text;whiteSpace=wrap;" value="3 мотострелковых отделения" vertex="1">
+          <mxGeometry height="30" width="170" x="70" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-109" parent="1" style="text;whiteSpace=wrap;" value="командир отделения" vertex="1">
+          <mxGeometry height="40" width="150" x="-30" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-110" parent="1" style="text;whiteSpace=wrap;" value="пулеметчик" vertex="1">
+          <mxGeometry height="40" width="100" x="115" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-111" parent="1" style="text;whiteSpace=wrap;" value="гранатометчик" vertex="1">
+          <mxGeometry height="40" width="110" x="215" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-113" parent="1" style="text;whiteSpace=wrap;" value="помощник гранатометчи¬ка" vertex="1">
+          <mxGeometry height="40" width="190" x="330" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-114" parent="1" style="text;whiteSpace=wrap;" value="старший автоматчик" vertex="1">
+          <mxGeometry height="40" width="150" x="25" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-115" parent="1" style="text;whiteSpace=wrap;" value="3 автоматчика" vertex="1">
+          <mxGeometry height="40" width="110" x="160" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="j5a0hRMLbcRMh55_iER_-116" parent="1" style="text;whiteSpace=wrap;" value="водитель бронетранспор¬тера" vertex="1">
+          <mxGeometry height="40" width="200" x="280" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
