@@ -35,9 +35,11 @@ print(f"M_emp = {M_emp:.6f}, M_theory = {M_theory:.6f}")
 print(f"D_emp = {D_emp:.6f}, D_theory = {D_theory:.6f}")
 
 # Гистограмма
+K = 10
+weights = np.ones_like(z) / len(z) *10  # Каждое число "весит" 1/N
+
 plt.figure(figsize=(8, 5))
-plt.hist(z, bins=K, edgecolor='black', alpha=0.7)
-plt.axhline(N/K, color='red', linestyle='--', label='Ожидание')
+plt.hist(z, bins=K, weights=weights, edgecolor='black', alpha=0.7, range=(0, 1))
 plt.title("Гистограмма распределения БСВ")
 plt.xlabel("Интервал")
 plt.ylabel("Частота")
