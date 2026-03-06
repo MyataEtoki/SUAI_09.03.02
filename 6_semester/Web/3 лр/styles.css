@@ -1,0 +1,77 @@
+body{
+    font-family: 'Segoe UI';
+}
+.body-repeat-back {
+    background-image: url(assets/pattern-wicker-geometry-2.png);
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: 256px;
+}
+.body-one-back{
+    background-image: url(assets/21.\ Горы.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(0, 153, 255);
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: 20pt;
+    color: rgb(22, 39, 63);
+}
+h2 {
+    font-family: 'Segoe UI';
+    font-size: large;
+    font-weight: 700 ;    
+    color:rgb(7, 77, 53);
+    font-style: oblique;
+}
+
+.experiment {
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.experiment2 {
+    text-decoration: underline;
+}
+
+.vertical-text-super {
+    text-indent: 10%;
+    vertical-align: super;
+}
+.vertical-text-sub {
+    vertical-align: sub;
+}
+.vertical-text-middle {
+    vertical-align: middle;
+}
+
+.list-pos-inside {
+    list-style-position: inside;
+}
+
+.box {
+    padding: 20px;
+    margin: 20px 0;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333;
+    border-radius: 5px;
+}
+
+.hover-image {
+        transition: opacity 0.5s;
+}
+.hover-image:hover {
+        opacity: 0.5;
+        cursor: pointer;
+}
+
+a:hover {
+        color: rgb(85, 196, 122);
+        text-decoration: underline;
+}

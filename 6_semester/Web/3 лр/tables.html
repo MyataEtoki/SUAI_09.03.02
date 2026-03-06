@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <style>
+        table, th, td {
+            border: solid 2px rgb(133, 4, 4); 
+            text-align: center; 
+            border-collapse: collapse;
+            padding: 5px;
+            font-family: Arial;
+            width: 600px;
+        }
+        tfoot {
+            font-weight: normal;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .footer-text-title {
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+        }
+        .footer-text {
+            text-align: left;
+            vertical-align: super;
+        }
+        .img-cell {
+            width: 16%;
+        }
+        .img-cell img {
+            width: 100%;
+        }
+        </style>
+    </head>   
+    <a href="index.html"><img src="assets/home.png" class="hover-image" width="32"></a>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4" class="title">Зачисление в магистратуру ГУАП</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Магистратура<br>(бюджет)</td>
+                    <td style="vertical-align: super;">20 августа</td>
+                    <td style="vertical-align: super;">Очная форма обучения</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">Магистратура<br>(внебюджет)</td>
+                    <td>20 августа</td>
+                    <td>Очная форма обучения</td>
+                </tr>
+                <tr>
+                    <td>20 сентября</td>
+                    <td>Заочная форма обучения</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="img-cell"><img src="assets/гуаповец.jpg"></td>
+                    <td colspan="3" class="footer-text" style="background-color: rgb(175, 252, 175);">
+                        <div class="footer-text-title">Программы вступительных испытаний</div>
+                        <div class="footer-text">
+                            Со всеми программами вступительных испытаний в магистратуру можно ознакомиться на сайте ГУАП
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
