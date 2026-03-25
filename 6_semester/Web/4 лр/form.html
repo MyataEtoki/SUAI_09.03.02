@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>    
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Магазин Компьютеров</title>
+    <style>
+        label {
+            display: block; 
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        fieldset {
+            margin-top: 15px;
+            border: 2px solid rgb(133, 80, 16);
+        }
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    </style>
+    <a href="index.html"><img src="assets/home.png" class="hover-image" width="32"></a>
+</head>
+    <body>
+        <h1>Электронный магазин "У тёти Даши"</h1>
+        <p>Заполните форму, чтобы купить компьютер:</p>
+
+        <form action="#" method="POST">
+
+            <label for="name">Ваше ФИО (обязательно):</label>
+            <input type="text" id="name" name="name" placeholder="Иванов Иван Иваныч" required>
+
+            <label for="password">Придумайте пароль:</label>
+            <input type="password" id="password" name="password" placeholder="******">
+
+            <fieldset>
+                <legend>Способ оплаты:</legend>
+                <input type="radio" id="pay1" name="payment" value="card" checked>
+                <label for="pay1" style="display:inline; font-weight:normal;">Картой</label><br>
+                
+                <input type="radio" id="pay2" name="payment" value="cash">
+                <label for="pay2" style="display:inline; font-weight:normal;">Наличными</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Нужна ли расширенная гарантия?</legend>
+                <input type="radio" id="war1" name="warranty" value="yes">
+                <label for="war1" style="display:inline; font-weight:normal;">Да</label><br>
+
+                <input type="radio" id="war2" name="warranty" value="no">
+                <label for="war2" style="display:inline; font-weight:normal;">Не</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Переферия:</legend>
+                <input type="checkbox" id="acc1" name="accessories" value="mouse">
+                <label for="acc1" style="display:inline; font-weight:normal;">Игровая мышка</label><br>
+
+                <input type="checkbox" id="acc2" name="accessories" value="pad">
+                <label for="acc2" style="display:inline; font-weight:normal;">Коврик для мыши</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Установить программы:</legend>
+                <input type="checkbox" id="soft1" name="software" value="win">
+                <label for="soft1" style="display:inline; font-weight:normal;">Windows 11</label><br>
+
+                <input type="checkbox" id="soft2" name="software" value="office">
+                <label for="soft2" style="display:inline; font-weight:normal;">Microsoft Office</label>
+            </fieldset>
+
+            <label for="model">Выберите модель компьютера:</label>
+            <select id="model" name="model">
+                <option value="" disabled selected>-- Выберите из списка --</option>
+                <option value="gaming">Монтажный монстр</option>
+                <option value="office">Офисный печатный станок</option>
+                <option value="server">"Для учёбы"</option>
+            </select>
+
+            <label for="date">Дата доставки:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="comment">Комментарий к заказу:</label>
+            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Напишите сюда, если есть что сказать"></textarea>
+
+            <br><br>
+            <button type="submit">ОФОРМИТЬ ЗАКАЗ</button>
+            <button type="reset">ОЧИСТИТЬ ВСЁ</button>
+
+        </form>
+    </body>
+</html>

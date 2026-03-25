@@ -1,0 +1,30 @@
+body{
+    font-family: 'Segoe UI';
+    background-color: rgb(255, 228, 196);
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: 20pt;
+    color: rgb(22, 39, 63);
+}
+h2 {
+    font-family: 'Segoe UI';
+    font-size: large;
+    font-weight: 700 ;    
+    color:rgb(7, 77, 53);
+    font-style: oblique;
+}
+
+.hover-image {
+        transition: opacity 0.5s;
+}
+.hover-image:hover {
+        opacity: 0.5;
+        cursor: pointer;
+}
+
+a:hover {
+        color: rgb(85, 196, 122);
+        text-decoration: underline;
+}

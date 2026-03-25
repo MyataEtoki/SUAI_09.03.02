@@ -44,7 +44,7 @@ M_theor = np.sum(x_vals * p_vals)
 D_theor = np.sum(p_vals * (x_vals - M_theor)**2)
 
 M_emp = np.mean(generated_x)
-D_emp = np.var(generated_x, ddof=1)  # ddof=1 для несмещенной оценки
+D_emp = np.var(generated_x, ddof=1)
 
 print(f"\n--- Результаты ---")
 print(f"M теор: {M_theor:.4f} | M эмп: {M_emp:.4f}")

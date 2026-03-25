@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ФЛЕКСИМ!!!!</title>
+        <style>
+            
+            .nav-container {
+                display: flex;
+                justify-content: space-around; 
+                background-color: rgb(52, 28, 0);
+                padding: 15px 0;
+            }
+
+            .nav-container a {
+                color: rgb(252, 233, 209);
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            .nav-container a:hover {
+                text-decoration: underline;
+            }
+
+            .content-container {
+                display: flex;
+                align-items: stretch; 
+                min-height: 400px;
+                padding: 20px;
+                background-color: rgb(255, 228, 196);
+            }
+
+            .block {
+                padding: 15px;
+                border: 1px solid #b48e6b;
+                background-color: rgb(255, 228, 196);
+                margin: 10px;
+            }
+
+            .block-left {
+                flex: 1; 
+            }
+
+            .block-center {
+                flex: 2; 
+                position: relative;
+            }
+
+            .block-right {
+                flex: 1; 
+            }
+
+            .block-center img {
+                float: left; 
+                margin-right: 15px;
+                margin-bottom: 10px;
+                
+                min-width: 200px; 
+                max-width: 100%;
+                height: auto;
+
+                width: 50%;
+            }
+
+            .footer-container {
+                display: flex;
+                justify-content: space-between; 
+                background-color: rgb(52, 28, 0);;
+                color: rgb(255, 228, 196);
+                padding: 20px;
+            }
+
+            .footer-block {
+                padding: 10px;
+            }
+
+            @media (max-width: 800px) {
+                
+                .nav-container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .nav-container a {
+                    padding: 15px;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .content-container {
+                    flex-direction: column;
+                }
+
+                .block {
+                    flex: 1 1 100%; 
+                    margin: 10px 0;
+                }
+
+                .footer-container {
+                    flex-direction: row; 
+                    font-size: 14px; 
+                }
+            }
+            
+        </style>
+
+    </head>
+    <body>
+
+        <nav class="nav-container">
+            <a href="#">Главная</a>
+            <a href="#">О нас</a>
+            <a href="#">Услуги</a>
+            <a href="#">Контакты</a>
+        </nav>
+
+        <main class="content-container">
+
+            <div class="block block-left">
+                <h3>Левый блок</h3>
+                <p>Текст левого блока. Он занимает примерно половину ширины центрального блока.</p>
+            </div>
+
+            <div class="block block-center">
+                <h3>Центральный блок</h3>
+                <img src="assets/fish-bee.jpg">
+                <p>
+                    Это текст в центральном блоке. Он обтекает изображение справа. Обратите внимание, что изображение имеет минимальную ширину 200 пикселей.
+                    <br>
+                    Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании модели развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа существенных финансовых и административных условий. С другой стороны консультация с широким активом позволяет оценить значение соответствующий условий активизации. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности позволяет оценить значение систем массового участия.
+                    </p>
+            </div>
+
+            <div class="block block-right">
+                <h3>Правый блок</h3>
+                <p>Текст правого блока. Он также занимает примерно половину ширины центрального блока.</p>
+            </div>
+        </main>
+
+        <footer class="footer-container">
+            <div class="footer-block phone">
+                <strong>Телефон:</strong> 8 (800) 555-35-35
+            </div>
+            <div class="footer-block address">
+                <strong>Адрес:</strong> г. Санкт-Петербург, улица Пушкина, дом Колотушкина
+            </div>
+        </footer>
+
+    </body>
+</html>
