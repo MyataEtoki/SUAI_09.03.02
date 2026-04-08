@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-rows: auto auto auto auto;
+                gap: 10px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .nav-panel {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                background-color: #999;
+                padding: 20px;
+                text-align: center;
+                min-height: 60px;
+            }
+
+            .photo-1 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                background-color: #999;
+                min-height: 200px;
+                max-height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .article {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                background-color: #999;
+                padding: 20px;
+                min-height: 400px;
+            }
+
+            .photo-3 {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                background-color: #999;
+                min-height: 200px;
+                max-height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .photo-2 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background-color: #999;
+                min-height: 200px;
+                max-height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .photo-4 {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background-color: #999;
+                min-height: 200px;
+                max-height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .photo-1 img, 
+            .photo-2 img, 
+            .photo-3 img, 
+            .photo-4 img {
+                width: 30vh; /* VH!!! */
+            }
+
+            .contacts {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                background-color: #999;
+                padding: 20px;
+                text-align: center;
+                min-height: 60px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            @media (max-width: 900px) and (min-width: 700px) {
+                .grid-container {
+                    grid-template-columns: 1fr 1fr;
+                }
+
+                .nav-panel {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                }
+
+                .photo-1 {
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                }
+
+                .photo-3 {
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+
+                .article {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    grid-row-start: 3;
+                    grid-row-end: 4;
+                }
+
+                .photo-2 {
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    grid-row-start: 4;
+                    grid-row-end: 5;
+                }
+
+                .photo-4 {
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                    grid-row-start: 4;
+                    grid-row-end: 5;
+                }
+
+                .contacts {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    grid-row-start: 5;
+                    grid-row-end: 6;
+                }
+            }
+
+                @media (max-width: 700px) {
+                    .grid-container {
+                        grid-template-columns: 1fr;
+                        grid-template-rows: auto;
+                    }
+
+                    .nav-panel {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 1;
+                        grid-row-end: 2;
+                    }
+
+                    .photo-1 {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 2;
+                        grid-row-end: 3;
+                    }
+
+                    .photo-3 {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 3;
+                        grid-row-end: 4;
+                    }
+
+                    .article {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 4;
+                        grid-row-end: 5;
+                    }
+
+                    .photo-2 {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 5;
+                        grid-row-end: 6;
+                    }
+
+                    .photo-4 {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 6;
+                        grid-row-end: 7;
+                    }
+
+                    .contacts {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 7;
+                        grid-row-end: 8;
+                    }
+                }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <nav class="nav-panel">
+                <a href="index.html">Главная</a>
+                <a href="2_zd.html">2 часть задания</a>
+            </nav>
+            <div class="photo-1">
+                <img src="assets/images/кактус.png" alt="Кактус">
+            </div>
+            <div class="article">
+                <h2>5 главных правил ухода за суккулентами</h2>
+                <p>
+                1. Освещение: чем больше, тем лучше (но есть нюанс)
+                <br>2. Полив: лучше недолить, чем перелить
+                <br>Как правильно поливать:
+                <br>Частота: Поливайте только тогда, когда земляной ком полностью просохнет. Летом это может быть 1 раз в 5–7 дней, зимой — 1 раз в 2–4 недели.
+                <br>3. Температурный режим: нужна зима
+                <br>В уходе за суккулентами важно имитировать смену сезонов.
+                <br>4. Грунт и горшок: основа здоровья
+                <br>Посадка в обычную землю для цветов — самая распространенная ошибка. В универсальном торфяном грунте корни задыхаются и гниют.
+                <br>5. Подкормка: лучше голодать, чем переедать.
+                <br>Суккуленты не любят богатую органическими веществами почву. В природе они растут на скудных каменистых почвах.
+                </p>
+            </div>
+            <div class="photo-3"><img src="assets/images/суккулент.png" alt=""></div>
+            <div class="photo-2"><img src="assets/images/алоэ вера.png" alt=""></div>
+            <div class="photo-4"><img src="assets/images/суккулент.png" alt=""></div>
+            <div class="contacts">Контакты</div>
+        </div>
+    </body>
+</html>
